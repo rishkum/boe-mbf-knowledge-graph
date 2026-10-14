@@ -76,6 +76,15 @@ prereq = q("SELECT src learn_first, dst concept FROM edges WHERE rel='PREREQUISI
 claims = q("SELECT id claim_id, doc_id, date, driver, driver_raw, sign direction, outcome, outcome_raw, channel, "
            "conditions, evidence_type, hedging, quote, quote_how quote_check FROM mechanisms ORDER BY date, id")
 claims["quote_check"] = claims.quote_check.replace("", "no quote found")
+
+# Manual review: directions recorded the wrong way round by the extractor (the quote and channel say otherwise).
+CORRECTIONS = {
+    2983: {"driver_raw": "Increase in credit spreads", "direction": "increases"},  # quote: spread rise is amplified
+    3275: {"direction": "increases"},  # quote: further price falls necessitate more sales
+}
+for cid, fix in CORRECTIONS.items():
+    for col, val in fix.items():
+        claims.loc[claims.claim_id == cid, col] = val
 name = dict(zip(concepts.concept_id, concepts.name))
 
 # ---------------------------------------------------------------- relations between claims
@@ -86,6 +95,15 @@ rel = pd.DataFrame({
                              "SUPPORTS": "same or supporting claim"}),
     "reason": rel.props.map(lambda p: json.loads(p or "{}").get("reason", "")),
 })
+# pairs touching a corrected claim: re-label by the corrected directions
+direction = dict(zip(claims.claim_id, claims.direction))
+for i, r in rel[rel.later_claim_id.isin(CORRECTIONS) | rel.earlier_claim_id.isin(CORRECTIONS)].iterrows():
+    same = direction[r.later_claim_id] == direction[r.earlier_claim_id]
+    if same and r.relation != "same or supporting claim":
+        rel.at[i, "relation"] = "same or supporting claim"
+        rel.at[i, "reason"] = ""  # as for other same-direction pairs, which the pipeline does not send for checking
+    elif not same and r.relation == "same or supporting claim":
+        print(f"check pair {r.later_claim_id}-{r.earlier_claim_id}: now opposite directions")
 
 # ---------------------------------------------------------------- other links
 events = concepts[concepts.facet == "event"][["concept_id", "name", "event_date", "definition"]] \
@@ -287,12 +305,10 @@ readme = [
     ("Known limitations", ""),
     ("1", "Direction, hedging, evidence type and concept matching were assigned by a language model and have not "
      "been reviewed by experts. Treat counts as a guide to where evidence sits, not as a quality score."),
-    ("2", "Claim 2983 (2019 corporate bond stress simulation) has its direction recorded the wrong way round, so "
-     "it appears as the one flagged contradiction. Both papers in that pair say falling prices trigger forced sales."),
-    ("3", "The 'US Treasuries' concept also picks up generic statements about interest rates."),
-    ("4", "About 14% of quotes are the closest source passage rather than the model's exact quote "
+    ("2", "The 'US Treasuries' concept also picks up generic statements about interest rates."),
+    ("3", "About 14% of quotes are the closest source passage rather than the model's exact quote "
      "(quote_check = located); one claim has no quote."),
-    ("5", "Working papers were read from their abstract, introduction and conclusion. Staff publications set out "
+    ("4", "Working papers were read from their abstract, introduction and conclusion. Staff publications set out "
      "their authors' views, not those of the Bank's policy committees."),
 ]
 

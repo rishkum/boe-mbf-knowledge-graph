@@ -174,8 +174,6 @@ def overview():
         st.markdown(
             "- Direction, hedging, evidence type and concept matching were assigned by a language model and have "
             "not been reviewed by experts. Counts show where evidence sits, not its quality.\n"
-            "- One claim (2019 corporate bond stress simulation) has its direction recorded the wrong way round, "
-            "so it shows as the single flagged contradiction.\n"
             "- The *US Treasuries* concept also picks up generic statements about interest rates.\n"
             "- About 14% of quotes are the closest source passage rather than the model's exact quote.\n"
             "- Working papers were read from their abstract, introduction and conclusion. Staff publications set "
@@ -409,9 +407,9 @@ def disagreements():
         any_c = st.toggle("Filter by topic", True)
         cid = concept_picker("Topic", "dealers", key="dis") if any_c else None
     with c2:
-        kinds = st.multiselect("Verdict", ["depends on context", "flagged as contradiction",
-                                           "same or supporting claim"],
-                               default=["depends on context", "flagged as contradiction"])
+        options = sorted(rel.relation.unique())
+        kinds = st.multiselect("Verdict", options,
+                               default=[o for o in options if o != "same or supporting claim"])
     claims = CLAIMS.set_index("claim_id")
     df = rel[rel.relation.isin(kinds)].copy()
     if cid:
@@ -419,10 +417,6 @@ def disagreements():
         later = claims.loc[df.later_claim_id]
         df = df[(later.driver.isin(fam) | later.outcome.isin(fam)).values]
     st.markdown(f"**{len(df)} pairs**")
-    if "flagged as contradiction" in kinds:
-        st.info("The one pair flagged as a contradiction is a recording error: both 2019 papers say falling "
-                "prices and wider spreads trigger forced sales, but one claim's direction was stored the wrong way "
-                "round. Automated verdicts need expert review.")
 
     def side(ids):
         c = claims.loc[ids]

@@ -19,7 +19,7 @@ Leverage,Financial stability risk,leverage,financial_stability,9,9,2015,2025,6,2
 Market liquidity,Asset price volatility,market_liquidity,asset_prices,8,10,2016,2025,6,3,1,0.4,0.8
 Market-based finance,Financial stability risk,mbf,financial_stability,8,10,2018,2026,4,5,1,0.0,0.7
 Asset price volatility,Credit to the real economy,asset_prices,credit_supply,8,9,2015,2026,1,7,1,0.33,0.78
-Asset price volatility,Fire sales,asset_prices,fire_sales,8,9,2017,2024,7,2,0,0.33,1.0
+Asset price volatility,Fire sales,asset_prices,fire_sales,8,9,2017,2024,9,0,0,0.33,1.0
 Credit to the real economy,Financial stability risk,credit_supply,financial_stability,8,9,2015,2026,7,2,0,0.22,0.78
 Asset price volatility,Margin and collateral calls,asset_prices,margin,7,10,2020,2025,10,0,0,0.9,1.0
 Monetary policy transmission via markets,Credit to the real economy,monetary_transmission,credit_supply,7,9,2017,2024,4,4,1,0.89,0.89

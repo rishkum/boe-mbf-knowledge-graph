@@ -49,6 +49,5 @@ From the full project: `.venv/bin/python demo/build_demo_data.py`, then commit a
 
 - Direction, hedging, evidence type and concept matching were assigned by a language model and have not been
   reviewed by experts.
-- Claim 2983 has its direction recorded the wrong way round, so it shows as the one flagged contradiction.
 - The US Treasuries concept also picks up generic interest-rate statements.
 - About 14% of quotes are the closest source passage rather than the model's exact quote.
