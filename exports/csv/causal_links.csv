@@ -1,0 +1,551 @@
+﻿driver,outcome,driver_id,outcome_id,publications,claims,first_year,last_year,increases,decreases,no_effect_or_ambiguous,share_measured_in_data,share_stated_firmly
+Fire sales,Asset price volatility,fire_sales,asset_prices,16,17,2016,2025,8,9,0,0.47,1.0
+Dealers and market makers,Market liquidity,dealers,market_liquidity,15,26,2015,2026,13,12,1,0.73,0.92
+Central bank backstop facilities,Market liquidity,cb_backstop,market_liquidity,15,22,2016,2026,13,6,3,0.77,0.73
+Dealer balance-sheet constraints,Market liquidity,dealer_constraints,market_liquidity,13,15,2015,2025,5,10,0,0.67,0.93
+Margin and collateral calls,Fire sales,margin,fire_sales,13,13,2018,2025,13,0,0,0.38,0.92
+Central bank backstop facilities,Asset price volatility,cb_backstop,asset_prices,11,18,2015,2025,8,10,0,0.83,0.89
+Dealer balance-sheet constraints,Market dysfunction,dealer_constraints,market_dysfunction,11,15,2016,2026,12,2,1,0.6,0.67
+Central bank backstop facilities,Financial stability risk,cb_backstop,financial_stability,11,13,2015,2024,9,4,0,0.38,0.77
+Central bank backstop facilities,Monetary policy transmission via markets,cb_backstop,monetary_transmission,11,13,2018,2024,9,2,2,0.31,0.77
+Interconnectedness and concentration,Financial stability risk,interconnectedness,financial_stability,11,13,2016,2025,8,4,1,0.15,0.77
+Central bank backstop facilities,Market dysfunction,cb_backstop,market_dysfunction,11,12,2016,2024,0,12,0,0.33,0.75
+Leverage,Fire sales,leverage,fire_sales,11,12,2019,2026,12,0,0,0.25,0.75
+Central bank backstop facilities,Credit to the real economy,cb_backstop,credit_supply,11,11,2015,2025,9,1,1,0.27,0.64
+Dealer balance-sheet constraints,Asset price volatility,dealer_constraints,asset_prices,9,10,2018,2025,8,1,1,0.7,0.9
+Hedge funds,Asset price volatility,hedge_funds,asset_prices,9,10,2020,2025,7,2,1,1.0,1.0
+Interconnectedness and concentration,Market liquidity,interconnectedness,market_liquidity,9,9,2016,2025,3,6,0,0.67,0.89
+Leverage,Financial stability risk,leverage,financial_stability,9,9,2015,2025,6,2,1,0.22,0.78
+Market liquidity,Asset price volatility,market_liquidity,asset_prices,8,10,2016,2025,6,3,1,0.4,0.8
+Market-based finance,Financial stability risk,mbf,financial_stability,8,10,2018,2026,4,5,1,0.0,0.7
+Asset price volatility,Credit to the real economy,asset_prices,credit_supply,8,9,2015,2026,1,7,1,0.33,0.78
+Asset price volatility,Fire sales,asset_prices,fire_sales,8,9,2017,2024,7,2,0,0.33,1.0
+Credit to the real economy,Financial stability risk,credit_supply,financial_stability,8,9,2015,2026,7,2,0,0.22,0.78
+Asset price volatility,Margin and collateral calls,asset_prices,margin,7,10,2020,2025,10,0,0,0.9,1.0
+Monetary policy transmission via markets,Credit to the real economy,monetary_transmission,credit_supply,7,9,2017,2024,4,4,1,0.89,0.89
+Central bank backstop facilities,Money markets,cb_backstop,money_markets,7,8,2015,2025,6,2,0,0.5,1.0
+Interconnectedness and concentration,Market dysfunction,interconnectedness,market_dysfunction,7,8,2015,2026,7,0,1,0.38,0.75
+Leverage,Market dysfunction,leverage,market_dysfunction,7,7,2015,2025,7,0,0,0.43,0.57
+Market dysfunction,Market liquidity,market_dysfunction,market_liquidity,7,7,2017,2022,3,4,0,0.43,0.86
+Central bank backstop facilities,Corporate bond markets,cb_backstop,corporate_bonds,6,11,2017,2025,5,5,1,1.0,1.0
+Central counterparties,Dealer balance-sheet constraints,ccps,dealer_constraints,6,9,2018,2026,5,4,0,0.33,0.78
+Liquidity mismatch,Fire sales,liquidity_mismatch,fire_sales,6,7,2019,2024,7,0,0,0.29,1.0
+Open-ended funds,Asset price volatility,oef,asset_prices,6,7,2015,2024,5,2,0,0.71,0.86
+Leverage,Credit to the real economy,leverage,credit_supply,6,6,2015,2024,4,1,1,0.83,0.83
+Central counterparties,Financial stability risk,ccps,financial_stability,5,11,2017,2019,6,5,0,0.09,0.73
+Margin and collateral calls,Repo markets,margin,repo,5,9,2018,2022,3,6,0,0.78,1.0
+Market liquidity,Credit to the real economy,market_liquidity,credit_supply,5,7,2016,2026,4,3,0,0.43,0.86
+Monetary policy transmission via markets,Asset price volatility,monetary_transmission,asset_prices,5,7,2016,2026,4,3,0,0.43,0.86
+Central bank backstop facilities,Gilt market,cb_backstop,gilt_market,5,6,2015,2024,1,5,0,0.67,0.67
+Corporate bond markets,Credit to the real economy,corporate_bonds,credit_supply,5,6,2017,2025,2,3,1,0.33,0.5
+Dealer balance-sheet constraints,Repo markets,dealer_constraints,repo,5,6,2019,2024,1,5,0,0.83,0.83
+Dealers and market makers,Asset price volatility,dealers,asset_prices,5,6,2015,2024,4,2,0,0.67,0.83
+Asset price volatility,Leverage,asset_prices,leverage,5,5,2017,2026,4,1,0,0.4,0.8
+Liquidity mismatch,Run risk,liquidity_mismatch,run_risk,5,5,2016,2024,5,0,0,0.0,1.0
+Margin and collateral calls,Market liquidity,margin,market_liquidity,5,5,2016,2023,2,3,0,0.6,0.8
+Open-ended funds,Fire sales,oef,fire_sales,5,5,2019,2023,4,1,0,0.0,0.6
+Procyclicality,Asset price volatility,procyclicality,asset_prices,5,5,2016,2023,5,0,0,0.4,0.6
+Gilt market,Asset price volatility,gilt_market,asset_prices,4,7,2019,2026,3,4,0,0.86,0.86
+Collateral and safe assets,Margin and collateral calls,collateral,margin,4,6,2019,2026,5,1,0,0.67,1.0
+Macroprudential policy for non-banks,Financial stability risk,macroprudential_nbfi,financial_stability,4,6,2018,2024,2,4,0,0.33,0.67
+Dealers and market makers,Market dysfunction,dealers,market_dysfunction,4,5,2015,2018,3,2,0,0.4,0.8
+Margin policy reforms,Financial stability risk,margin_policy,financial_stability,4,5,2017,2024,1,2,2,0.0,1.0
+Procyclical margin,Fire sales,procyclical_margin,fire_sales,4,5,2021,2026,5,0,0,0.4,1.0
+Asset price volatility,Market liquidity,asset_prices,market_liquidity,4,4,2019,2025,0,4,0,1.0,1.0
+Bank–non-bank linkages,Financial stability risk,banks_nbfi_links,financial_stability,4,4,2015,2026,2,1,1,0.75,0.5
+Hedge funds,Market liquidity,hedge_funds,market_liquidity,4,4,2022,2023,2,1,1,0.75,1.0
+Interconnectedness and concentration,Asset price volatility,interconnectedness,asset_prices,4,4,2015,2023,2,1,1,0.5,0.25
+Interconnectedness and concentration,Fire sales,interconnectedness,fire_sales,4,4,2017,2024,4,0,0,0.0,0.75
+Liquidity mismatch,Market dysfunction,liquidity_mismatch,market_dysfunction,4,4,2020,2026,3,1,0,0.25,0.5
+Market liquidity,Market dysfunction,market_liquidity,market_dysfunction,4,4,2018,2025,1,3,0,1.0,1.0
+Procyclical margin,Liquidity mismatch,procyclical_margin,liquidity_mismatch,4,4,2015,2022,4,0,0,0.0,0.5
+Run risk,Fire sales,run_risk,fire_sales,4,4,2016,2023,4,0,0,0.25,0.75
+Margin and collateral calls,Money markets,margin,money_markets,3,5,2015,2022,2,1,2,0.8,1.0
+Derivatives markets,Asset price volatility,derivatives,asset_prices,3,4,2022,2024,3,1,0,0.75,0.75
+LDI funds and pension schemes,Asset price volatility,ldi,asset_prices,3,4,2017,2023,1,2,1,0.0,0.5
+Margin policy reforms,Credit to the real economy,margin_policy,credit_supply,3,4,2015,2020,2,1,1,0.75,1.0
+Margin policy reforms,Procyclical margin,margin_policy,procyclical_margin,3,4,2018,2022,0,4,0,0.0,0.75
+Money markets,Market liquidity,money_markets,market_liquidity,3,4,2016,2020,1,3,0,1.0,1.0
+Asset price volatility,Derivatives markets,asset_prices,derivatives,3,3,2023,2024,3,0,0,1.0,1.0
+Bank–non-bank linkages,Credit to the real economy,banks_nbfi_links,credit_supply,3,3,2018,2021,1,2,0,0.33,0.33
+Central counterparties,Market liquidity,ccps,market_liquidity,3,3,2018,2026,2,1,0,0.67,0.67
+Collateral and safe assets,Money markets,collateral,money_markets,3,3,2022,2025,1,2,0,1.0,1.0
+Dealer balance-sheet constraints,Credit to the real economy,dealer_constraints,credit_supply,3,3,2024,2026,2,1,0,0.33,0.67
+Dealer balance-sheet constraints,Interconnectedness and concentration,dealer_constraints,interconnectedness,3,3,2017,2019,3,0,0,0.67,1.0
+Fire sales,Market dysfunction,fire_sales,market_dysfunction,3,3,2023,2024,3,0,0,0.67,1.0
+Interconnectedness and concentration,Credit to the real economy,interconnectedness,credit_supply,3,3,2016,2023,3,0,0,0.67,1.0
+Leverage,Bank–non-bank linkages,leverage,banks_nbfi_links,3,3,2022,2026,3,0,0,0.67,1.0
+Leverage,Procyclicality,leverage,procyclicality,3,3,2017,2026,3,0,0,0.67,1.0
+Liquidity mismatch,Market liquidity,liquidity_mismatch,market_liquidity,3,3,2016,2019,3,0,0,0.67,1.0
+Margin and collateral calls,Credit to the real economy,margin,credit_supply,3,3,2015,2025,1,1,1,0.67,1.0
+Margin and collateral calls,Financial stability risk,margin,financial_stability,3,3,2017,2025,3,0,0,0.33,1.0
+Margin and collateral calls,Liquidity mismatch,margin,liquidity_mismatch,3,3,2017,2023,3,0,0,0.33,0.67
+Market dysfunction,Credit to the real economy,market_dysfunction,credit_supply,3,3,2022,2024,1,2,0,0.33,0.67
+Market dysfunction,Financial stability risk,market_dysfunction,financial_stability,3,3,2016,2022,2,1,0,0.33,0.67
+Market liquidity,Fire sales,market_liquidity,fire_sales,3,3,2017,2024,0,3,0,0.0,1.0
+Money markets,Monetary policy transmission via markets,money_markets,monetary_transmission,3,3,2019,2025,2,1,0,0.33,0.67
+Procyclical margin,Market dysfunction,procyclical_margin,market_dysfunction,3,3,2017,2024,3,0,0,0.0,0.0
+Run risk,Financial stability risk,run_risk,financial_stability,3,3,2022,2026,3,0,0,0.33,0.67
+Central counterparties,Collateral and safe assets,ccps,collateral,2,4,2018,2022,1,2,1,0.25,1.0
+Margin policy reforms,Fire sales,margin_policy,fire_sales,2,4,2018,2019,0,3,1,0.0,0.75
+Margin policy reforms,Market liquidity,margin_policy,market_liquidity,2,4,2021,2024,3,1,0,1.0,1.0
+Trader size,Trading costs,x_trader_size,x_trading_costs,2,4,2022,2022,2,2,0,1.0,1.0
+Central bank backstop facilities,Liquidity preparedness,cb_backstop,liquidity_preparedness,2,3,2016,2026,2,1,0,0.0,0.67
+Collateral and safe assets,Market liquidity,collateral,market_liquidity,2,3,2019,2024,1,2,0,0.0,1.0
+Collateral and safe assets,Repo markets,collateral,repo,2,3,2018,2024,2,1,0,1.0,1.0
+Dealer balance-sheet constraints,Fire sales,dealer_constraints,fire_sales,2,3,2016,2023,2,1,0,0.33,1.0
+Dealer balance-sheet constraints,Monetary policy transmission via markets,dealer_constraints,monetary_transmission,2,3,2023,2026,1,2,0,0.67,0.67
+Financial stability risk,Collateral and safe assets,financial_stability,collateral,2,3,2016,2016,2,1,0,0.33,0.67
+Financial stability risk,Credit to the real economy,financial_stability,credit_supply,2,3,2017,2026,2,1,0,0.67,1.0
+Fire sales,Market liquidity,fire_sales,market_liquidity,2,3,2023,2023,1,2,0,0.67,1.0
+Leverage,Dealers and market makers,leverage,dealers,2,3,2017,2019,1,1,1,0.67,0.33
+Margin and collateral calls,Procyclical margin,margin,procyclical_margin,2,3,2016,2026,2,1,0,0.0,0.67
+Margin policy reforms,Dealer balance-sheet constraints,margin_policy,dealer_constraints,2,3,2017,2021,1,2,0,0.33,0.67
+Private credit and private equity,Financial stability risk,private_credit,financial_stability,2,3,2019,2024,3,0,0,0.33,0.0
+Repo markets,Financial stability risk,repo,financial_stability,2,3,2023,2025,0,3,0,0.33,1.0
+Repo markets,Money markets,repo,money_markets,2,3,2022,2024,1,1,1,0.67,1.0
+Asset price volatility,Collateral and safe assets,asset_prices,collateral,2,2,2022,2024,1,1,0,1.0,1.0
+Asset price volatility,LDI funds and pension schemes,asset_prices,ldi,2,2,2017,2020,2,0,0,0.0,0.5
+Central bank backstop facilities,Collateral and safe assets,cb_backstop,collateral,2,2,2022,2024,1,1,0,1.0,1.0
+Central bank backstop facilities,Dealers and market makers,cb_backstop,dealers,2,2,2019,2025,1,1,0,1.0,1.0
+Central bank backstop facilities,FX and FX swap markets,cb_backstop,fx_swaps,2,2,2018,2020,0,2,0,0.5,1.0
+Central bank backstop facilities,Repo markets,cb_backstop,repo,2,2,2024,2025,2,0,0,1.0,1.0
+Central counterparties,Liquidity mismatch,ccps,liquidity_mismatch,2,2,2022,2023,1,0,1,0.0,0.5
+Central counterparties,Market dysfunction,ccps,market_dysfunction,2,2,2019,2023,1,1,0,0.0,0.0
+Central counterparties,Repo markets,ccps,repo,2,2,2019,2023,2,0,0,0.0,1.0
+Collateral and safe assets,Central bank backstop facilities,collateral,cb_backstop,2,2,2016,2019,1,1,0,0.5,1.0
+Collateral and safe assets,Credit to the real economy,collateral,credit_supply,2,2,2020,2024,1,1,0,0.5,1.0
+Collateral and safe assets,Gilt market,collateral,gilt_market,2,2,2016,2022,1,1,0,0.0,1.0
+Collateral and safe assets,Liquidity preparedness,collateral,liquidity_preparedness,2,2,2016,2026,2,0,0,0.0,1.0
+Corporate bond markets,Market liquidity,corporate_bonds,market_liquidity,2,2,2016,2020,2,0,0,0.5,0.5
+Corporate bond markets,Size penalty,corporate_bonds,x_size_penalty,2,2,2022,2022,2,0,0,1.0,1.0
+Credit to the real economy,Corporate bond markets,credit_supply,corporate_bonds,2,2,2024,2024,1,1,0,1.0,1.0
+Dash for cash,Market liquidity,dash_for_cash_mech,market_liquidity,2,2,2021,2024,1,1,0,0.5,1.0
+Data and transparency on non-banks,Macroprudential policy for non-banks,data_gaps,macroprudential_nbfi,2,2,2018,2022,1,1,0,0.0,0.5
+Dealer balance-sheet constraints,Corporate bond markets,dealer_constraints,corporate_bonds,2,2,2016,2019,1,1,0,0.5,0.5
+Dealer balance-sheet constraints,Derivatives markets,dealer_constraints,derivatives,2,2,2023,2023,1,1,0,0.5,1.0
+Dealers and market makers,Dealer balance-sheet constraints,dealers,dealer_constraints,2,2,2019,2023,1,1,0,0.5,0.5
+Dealers and market makers,Derivatives markets,dealers,derivatives,2,2,2018,2019,1,1,0,1.0,1.0
+Dealers and market makers,Financial stability risk,dealers,financial_stability,2,2,2018,2019,0,2,0,0.0,0.5
+Dealers and market makers,Interconnectedness and concentration,dealers,interconnectedness,2,2,2016,2022,1,1,0,0.5,1.0
+Derivatives markets,Corporate bond markets,derivatives,corporate_bonds,2,2,2019,2019,2,0,0,1.0,1.0
+Derivatives markets,Market liquidity,derivatives,market_liquidity,2,2,2018,2020,1,1,0,0.5,0.5
+March 2020 dash for cash,Market liquidity,ev_dash_for_cash,market_liquidity,2,2,2020,2023,1,1,0,0.5,1.0
+Fire sales,Dealer balance-sheet constraints,fire_sales,dealer_constraints,2,2,2019,2019,2,0,0,0.5,1.0
+Fund liquidity management tools,Financial stability risk,fund_liquidity_tools,financial_stability,2,2,2022,2022,2,0,0,0.0,0.5
+Fund liquidity management tools,Fire sales,fund_liquidity_tools,fire_sales,2,2,2022,2024,0,2,0,0.5,0.5
+Gilt market,Leverage,gilt_market,leverage,2,2,2017,2023,0,2,0,0.0,1.0
+Hedge funds,Financial stability risk,hedge_funds,financial_stability,2,2,2025,2026,2,0,0,1.0,1.0
+Hedge funds,Margin and collateral calls,hedge_funds,margin,2,2,2022,2026,2,0,0,1.0,1.0
+Hedge funds,Market dysfunction,hedge_funds,market_dysfunction,2,2,2020,2025,2,0,0,1.0,0.5
+Interconnectedness and concentration,Monetary policy transmission via markets,interconnectedness,monetary_transmission,2,2,2022,2023,1,1,0,0.5,1.0
+LDI funds and pension schemes,Dealers and market makers,ldi,dealers,2,2,2023,2024,2,0,0,0.5,1.0
+Leverage,Market liquidity,leverage,market_liquidity,2,2,2017,2026,1,1,0,1.0,0.5
+Liquidity mismatch,Financial stability risk,liquidity_mismatch,financial_stability,2,2,2018,2026,1,1,0,0.0,1.0
+Margin and collateral calls,Dealer balance-sheet constraints,margin,dealer_constraints,2,2,2019,2021,0,2,0,0.5,1.0
+Margin and collateral calls,Derivatives markets,margin,derivatives,2,2,2018,2019,0,2,0,1.0,1.0
+Margin and collateral calls,Interconnectedness and concentration,margin,interconnectedness,2,2,2015,2017,0,1,1,0.0,0.5
+Margin and collateral calls,Leverage,margin,leverage,2,2,2023,2024,0,2,0,0.5,0.5
+Margin policy reforms,Collateral and safe assets,margin_policy,collateral,2,2,2020,2022,1,1,0,0.5,1.0
+Market liquidity,Monetary policy transmission via markets,market_liquidity,monetary_transmission,2,2,2023,2024,2,0,0,0.5,1.0
+Market-based finance,Monetary policy transmission via markets,mbf,monetary_transmission,2,2,2015,2026,1,1,0,0.0,0.0
+Monetary policy transmission via markets,Bank–non-bank linkages,monetary_transmission,banks_nbfi_links,2,2,2018,2023,0,2,0,1.0,1.0
+Monetary policy transmission via markets,Corporate bond markets,monetary_transmission,corporate_bonds,2,2,2020,2024,1,1,0,1.0,1.0
+Monetary policy transmission via markets,Gilt market,monetary_transmission,gilt_market,2,2,2015,2022,2,0,0,0.5,0.5
+Monetary policy transmission via markets,Leverage,monetary_transmission,leverage,2,2,2015,2015,1,0,1,0.5,0.5
+Monetary policy transmission via markets,Money markets,monetary_transmission,money_markets,2,2,2016,2024,1,1,0,1.0,0.5
+Monetary policy transmission via markets,Private credit and private equity,monetary_transmission,private_credit,2,2,2015,2025,2,0,0,0.5,1.0
+Monetary policy transmission via markets,Reaching for yield,monetary_transmission,x_reaching_for_yield,2,2,2015,2017,2,0,0,0.0,0.5
+Money markets,Credit to the real economy,money_markets,credit_supply,2,2,2015,2020,1,0,1,1.0,1.0
+Procyclical margin,Leverage,procyclical_margin,leverage,2,2,2019,2021,2,0,0,0.0,1.0
+Stablecoins and crypto,Financial stability risk,stablecoins,financial_stability,2,2,2022,2022,2,0,0,0.0,0.0
+System-wide stress testing,Leverage,stress_testing,leverage,2,2,2018,2018,2,0,0,1.0,1.0
+US Treasury market,Market liquidity,us_treasury,market_liquidity,2,2,2018,2025,1,1,0,0.0,0.5
+Balance-sheet segmentation,Fire sales,x_balance_sheet_segmentation,fire_sales,2,2,2024,2024,2,0,0,0.5,1.0
+Macroeconomic surprises,Size penalty,x_macroeconomic_surprises,x_size_penalty,2,2,2022,2022,2,0,0,1.0,1.0
+Political and economic uncertainty,Gilt market,x_political_and_economic_uncertainty,gilt_market,2,2,2022,2022,2,0,0,0.0,0.5
+Basis trades,Asset price volatility,basis_trade,asset_prices,1,3,2023,2023,1,1,1,1.0,1.0
+Interconnectedness and concentration,Money markets,interconnectedness,money_markets,1,3,2018,2018,1,2,0,0.0,1.0
+LDI funds and pension schemes,Procyclicality,ldi,procyclicality,1,3,2018,2018,3,0,0,0.0,1.0
+LDI funds and pension schemes,Inflation mispricing,ldi,x_inflation_mispricing,1,3,2023,2023,2,1,0,1.0,1.0
+Leverage,Repo markets,leverage,repo,1,3,2017,2017,0,3,0,1.0,0.33
+System-wide stress testing,Fire sales,stress_testing,fire_sales,1,3,2018,2018,1,2,0,0.0,1.0
+Central bank backstop facilities,Leverage,cb_backstop,leverage,1,2,2016,2016,0,2,0,0.0,0.0
+Central counterparties,Interconnectedness and concentration,ccps,interconnectedness,1,2,2015,2015,1,1,0,0.0,1.0
+Central counterparties,Money markets,ccps,money_markets,1,2,2019,2019,1,1,0,1.0,1.0
+Corporate bond markets,Fire sales,corporate_bonds,fire_sales,1,2,2019,2019,2,0,0,0.0,1.0
+Dealer balance-sheet constraints,Collateral and safe assets,dealer_constraints,collateral,1,2,2016,2016,0,2,0,0.0,1.0
+Derivatives markets,Financial stability risk,derivatives,financial_stability,1,2,2024,2024,1,1,0,0.0,0.5
+FX and FX swap markets,Asset price volatility,fx_swaps,asset_prices,1,2,2018,2018,2,0,0,0.5,1.0
+Gilt market,Financial stability risk,gilt_market,financial_stability,1,2,2026,2026,0,0,2,1.0,1.0
+Interconnectedness and concentration,Liquidity mismatch,interconnectedness,liquidity_mismatch,1,2,2019,2019,2,0,0,0.0,1.0
+Interconnectedness and concentration,Margin and collateral calls,interconnectedness,margin,1,2,2022,2022,1,1,0,1.0,1.0
+Leverage,Procyclical margin,leverage,procyclical_margin,1,2,2024,2024,2,0,0,0.0,1.0
+Liquidity preparedness,Money markets,liquidity_preparedness,money_markets,1,2,2025,2025,1,1,0,1.0,1.0
+Macroprudential policy for non-banks,Market dysfunction,macroprudential_nbfi,market_dysfunction,1,2,2022,2022,0,2,0,1.0,1.0
+Margin and collateral calls,Collateral and safe assets,margin,collateral,1,2,2017,2017,2,0,0,1.0,1.0
+Margin policy reforms,Interconnectedness and concentration,margin_policy,interconnectedness,1,2,2024,2024,2,0,0,0.0,1.0
+Money market fund reform,Liquidity mismatch,mmf_reform,liquidity_mismatch,1,2,2026,2026,2,0,0,0.0,1.0
+Market maker of last resort,Fire sales,mmlr,fire_sales,1,2,2023,2023,1,1,0,0.0,1.0
+Market maker of last resort,Market liquidity,mmlr,market_liquidity,1,2,2019,2019,2,0,0,0.0,1.0
+Market maker of last resort,Monetary policy transmission via markets,mmlr,monetary_transmission,1,2,2018,2018,2,0,0,1.0,1.0
+Money markets,Bank–non-bank linkages,money_markets,banks_nbfi_links,1,2,2026,2026,1,1,0,1.0,1.0
+Open-ended funds,Credit to the real economy,oef,credit_supply,1,2,2015,2015,0,2,0,1.0,1.0
+System-wide stress testing,Run risk,stress_testing,run_risk,1,2,2018,2018,1,1,0,0.0,1.0
+Corporate bond purchases,Corporate bond markets,x_corporate_bond_purchases,corporate_bonds,1,2,2018,2018,0,2,0,1.0,1.0
+Foreign currency denomination,Procyclicality,x_foreign_currency_denomination,procyclicality,1,2,2017,2017,1,1,0,1.0,1.0
+"Global shocks (US, euro area, Japan)",Market-based finance,x_global_shocks_us_euro_area_japan,mbf,1,2,2021,2021,0,2,0,0.0,1.0
+Government debt issuance,Gilt market,x_government_debt_issuance,gilt_market,1,2,2024,2024,2,0,0,1.0,1.0
+Market volatility and stress,Collateral and safe assets,x_market_volatility_and_stress,collateral,1,2,2016,2016,1,1,0,1.0,1.0
+Asset price volatility,Corporate bond markets,asset_prices,corporate_bonds,1,1,2017,2017,1,0,0,1.0,1.0
+Asset price volatility,Market dysfunction,asset_prices,market_dysfunction,1,1,2024,2024,1,0,0,0.0,0.0
+Asset price volatility,Market-based finance,asset_prices,mbf,1,1,2026,2026,1,0,0,1.0,1.0
+Asset price volatility,Monetary policy transmission via markets,asset_prices,monetary_transmission,1,1,2023,2023,1,0,0,0.0,1.0
+Asset price volatility,Procyclical margin,asset_prices,procyclical_margin,1,1,2018,2018,1,0,0,0.0,1.0
+Asset price volatility,Procyclicality,asset_prices,procyclicality,1,1,2017,2017,1,0,0,0.0,0.0
+Asset price volatility,Run risk,asset_prices,run_risk,1,1,2016,2016,1,0,0,0.0,1.0
+Asset price volatility,Capital inflows,asset_prices,x_capital_inflows,1,1,2017,2017,0,1,0,1.0,1.0
+Asset price volatility,Hedge fund purchases,asset_prices,x_hedge_fund_purchases,1,1,2019,2019,1,0,0,1.0,1.0
+Asset price volatility,Investor demand for gilts,asset_prices,x_investor_demand_for_gilts,1,1,2021,2021,0,1,0,1.0,1.0
+Asset price volatility,Magnitude of private information,asset_prices,x_magnitude_of_private_information,1,1,2020,2020,1,0,0,0.0,1.0
+Bank–non-bank linkages,Collateral and safe assets,banks_nbfi_links,collateral,1,1,2024,2024,1,0,0,1.0,1.0
+Bank–non-bank linkages,Interconnectedness and concentration,banks_nbfi_links,interconnectedness,1,1,2017,2017,1,0,0,0.0,1.0
+Bank–non-bank linkages,LDI funds and pension schemes,banks_nbfi_links,ldi,1,1,2023,2023,1,0,0,0.0,1.0
+Bank–non-bank linkages,Liquidity mismatch,banks_nbfi_links,liquidity_mismatch,1,1,2019,2019,1,0,0,0.0,1.0
+Bank–non-bank linkages,Monetary policy transmission via markets,banks_nbfi_links,monetary_transmission,1,1,2018,2018,1,0,0,1.0,1.0
+Bank–non-bank linkages,Run risk,banks_nbfi_links,run_risk,1,1,2017,2017,1,0,0,1.0,1.0
+Basis trades,Hedge funds,basis_trade,hedge_funds,1,1,2024,2024,1,0,0,1.0,1.0
+Basis trades,Market dysfunction,basis_trade,market_dysfunction,1,1,2021,2021,1,0,0,1.0,1.0
+Central bank backstop facilities,Bank–non-bank linkages,cb_backstop,banks_nbfi_links,1,1,2015,2015,0,1,0,0.0,0.0
+Central bank backstop facilities,Basis trades,cb_backstop,basis_trade,1,1,2022,2022,0,1,0,1.0,1.0
+Central bank backstop facilities,Derivatives markets,cb_backstop,derivatives,1,1,2022,2022,0,1,0,1.0,1.0
+Central bank backstop facilities,Equity markets,cb_backstop,equity_markets,1,1,2018,2018,1,0,0,1.0,1.0
+Central bank backstop facilities,Fire sales,cb_backstop,fire_sales,1,1,2019,2019,0,1,0,0.0,1.0
+Central bank backstop facilities,Insurers,cb_backstop,insurers,1,1,2019,2019,0,0,1,1.0,1.0
+Central bank backstop facilities,Run risk,cb_backstop,run_risk,1,1,2016,2016,0,1,0,0.0,1.0
+Central bank backstop facilities,Preferred habitat demand,cb_backstop,x_preferred_habitat_demand,1,1,2025,2025,0,0,1,1.0,1.0
+Central bank backstop facilities,Preferred habitat investors,cb_backstop,x_preferred_habitat_investors,1,1,2021,2021,0,1,0,0.0,0.0
+Central counterparties,Derivatives markets,ccps,derivatives,1,1,2018,2018,1,0,0,1.0,1.0
+Central counterparties,Fire sales,ccps,fire_sales,1,1,2019,2019,0,1,0,0.0,0.0
+Central counterparties,Margin and collateral calls,ccps,margin,1,1,2019,2019,0,1,0,0.0,1.0
+Collateral and safe assets,Asset price volatility,collateral,asset_prices,1,1,2016,2016,1,0,0,0.0,0.0
+Collateral and safe assets,Central counterparties,collateral,ccps,1,1,2018,2018,0,1,0,1.0,1.0
+Collateral and safe assets,Corporate bond markets,collateral,corporate_bonds,1,1,2022,2022,1,0,0,1.0,1.0
+Collateral and safe assets,Interconnectedness and concentration,collateral,interconnectedness,1,1,2017,2017,1,0,0,0.0,1.0
+Collateral and safe assets,Liquidity mismatch,collateral,liquidity_mismatch,1,1,2024,2024,1,0,0,1.0,1.0
+Collateral and safe assets,Market dysfunction,collateral,market_dysfunction,1,1,2016,2016,0,1,0,0.0,1.0
+Collateral and safe assets,Monetary policy transmission via markets,collateral,monetary_transmission,1,1,2023,2023,0,1,0,1.0,1.0
+Collateral and safe assets,US Treasury market,collateral,us_treasury,1,1,2021,2021,1,0,0,0.0,0.0
+Collateral and safe assets,Capital requirement reduction,collateral,x_capital_requirement_reduction,1,1,2017,2017,0,1,0,0.0,1.0
+Collateral and safe assets,Preferred habitat demand,collateral,x_preferred_habitat_demand,1,1,2025,2025,0,1,0,0.0,1.0
+Corporate bond markets,Asset price volatility,corporate_bonds,asset_prices,1,1,2019,2019,1,0,0,0.0,1.0
+Corporate bond markets,Dealers and market makers,corporate_bonds,dealers,1,1,2017,2017,0,1,0,1.0,1.0
+Corporate bond markets,Financial stability risk,corporate_bonds,financial_stability,1,1,2019,2019,1,0,0,1.0,1.0
+Corporate bond markets,Monetary policy transmission via markets,corporate_bonds,monetary_transmission,1,1,2026,2026,1,0,0,0.0,0.0
+Credit to the real economy,FX and FX swap markets,credit_supply,fx_swaps,1,1,2020,2020,1,0,0,1.0,1.0
+Credit to the real economy,Leverage,credit_supply,leverage,1,1,2024,2024,1,0,0,1.0,1.0
+Credit to the real economy,Margin policy reforms,credit_supply,margin_policy,1,1,2018,2018,0,1,0,0.0,1.0
+Credit to the real economy,Macroeconomic output,credit_supply,x_macroeconomic_output,1,1,2020,2020,1,0,0,0.0,1.0
+Data and transparency on non-banks,Dealers and market makers,data_gaps,dealers,1,1,2022,2022,0,1,0,0.0,1.0
+Data and transparency on non-banks,Market liquidity,data_gaps,market_liquidity,1,1,2016,2016,0,1,0,1.0,1.0
+Dealer balance-sheet constraints,Bank–non-bank linkages,dealer_constraints,banks_nbfi_links,1,1,2026,2026,1,0,0,1.0,1.0
+Dealer balance-sheet constraints,Central counterparties,dealer_constraints,ccps,1,1,2019,2019,0,1,0,1.0,1.0
+Dealer balance-sheet constraints,Financial stability risk,dealer_constraints,financial_stability,1,1,2023,2023,1,0,0,0.0,1.0
+Dealer balance-sheet constraints,FX and FX swap markets,dealer_constraints,fx_swaps,1,1,2026,2026,1,0,0,1.0,1.0
+Dealer balance-sheet constraints,Market-based finance,dealer_constraints,mbf,1,1,2021,2021,1,0,0,1.0,1.0
+Dealer balance-sheet constraints,Money markets,dealer_constraints,money_markets,1,1,2019,2019,1,0,0,1.0,1.0
+Dealers and market makers,Bank–non-bank linkages,dealers,banks_nbfi_links,1,1,2018,2018,1,0,0,1.0,1.0
+Dealers and market makers,Central bank backstop facilities,dealers,cb_backstop,1,1,2020,2020,1,0,0,1.0,1.0
+Dealers and market makers,Central counterparties,dealers,ccps,1,1,2019,2019,0,1,0,1.0,1.0
+Dealers and market makers,Credit to the real economy,dealers,credit_supply,1,1,2015,2015,1,0,0,0.0,0.0
+Dealers and market makers,FX and FX swap markets,dealers,fx_swaps,1,1,2026,2026,1,0,0,1.0,1.0
+Dealers and market makers,Liquidity preparedness,dealers,liquidity_preparedness,1,1,2025,2025,0,1,0,1.0,1.0
+Dealers and market makers,Margin and collateral calls,dealers,margin,1,1,2022,2022,0,1,0,1.0,1.0
+Dealers and market makers,Money markets,dealers,money_markets,1,1,2024,2024,1,0,0,0.0,0.0
+Dealers and market makers,Information diffusion speed,dealers,x_information_diffusion_speed,1,1,2020,2020,1,0,0,0.0,0.0
+Derivatives markets,Credit to the real economy,derivatives,credit_supply,1,1,2023,2023,1,0,0,0.0,0.0
+Derivatives markets,Dealers and market makers,derivatives,dealers,1,1,2017,2017,1,0,0,1.0,1.0
+Derivatives markets,Fire sales,derivatives,fire_sales,1,1,2019,2019,1,0,0,1.0,1.0
+Derivatives markets,Gilt market,derivatives,gilt_market,1,1,2023,2023,1,0,0,1.0,1.0
+Derivatives markets,Probability of trading with dealer,derivatives,x_probability_of_trading_with_dealer,1,1,2025,2025,1,0,0,1.0,1.0
+Equity markets,Fire sales,equity_markets,fire_sales,1,1,2023,2023,1,0,0,0.0,1.0
+March 2020 dash for cash,Central counterparties,ev_dash_for_cash,ccps,1,1,2021,2021,1,0,0,1.0,1.0
+March 2020 dash for cash,Collateral and safe assets,ev_dash_for_cash,collateral,1,1,2024,2024,1,0,0,1.0,1.0
+March 2020 dash for cash,Dealer balance-sheet constraints,ev_dash_for_cash,dealer_constraints,1,1,2022,2022,1,0,0,1.0,1.0
+March 2020 dash for cash,Hedge funds,ev_dash_for_cash,hedge_funds,1,1,2021,2021,1,0,0,1.0,1.0
+March 2020 dash for cash,Market-based finance,ev_dash_for_cash,mbf,1,1,2021,2021,0,1,0,1.0,1.0
+March 2020 dash for cash,Monetary policy transmission via markets,ev_dash_for_cash,monetary_transmission,1,1,2020,2020,1,0,0,1.0,1.0
+September 2022 LDI episode,Procyclical margin,ev_ldi_2022,procyclical_margin,1,1,2024,2024,1,0,0,0.0,1.0
+Financial stability risk,Central bank backstop facilities,financial_stability,cb_backstop,1,1,2023,2023,1,0,0,0.0,1.0
+Financial stability risk,Dealer balance-sheet constraints,financial_stability,dealer_constraints,1,1,2016,2016,0,1,0,0.0,1.0
+Financial stability risk,Derivatives markets,financial_stability,derivatives,1,1,2024,2024,1,0,0,0.0,0.0
+Financial stability risk,Monetary policy transmission via markets,financial_stability,monetary_transmission,1,1,2024,2024,0,1,0,1.0,1.0
+Financial stability risk,Run risk,financial_stability,run_risk,1,1,2024,2024,0,0,1,0.0,0.0
+Fire sales,Corporate bond markets,fire_sales,corporate_bonds,1,1,2022,2022,1,0,0,0.0,1.0
+Fire sales,Credit to the real economy,fire_sales,credit_supply,1,1,2017,2017,0,1,0,0.0,0.0
+Fire sales,Dealers and market makers,fire_sales,dealers,1,1,2024,2024,1,0,0,0.0,1.0
+Fire sales,Financial stability risk,fire_sales,financial_stability,1,1,2023,2023,1,0,0,0.0,1.0
+Fire sales,Gilt market,fire_sales,gilt_market,1,1,2021,2021,1,0,0,1.0,1.0
+Fire sales,Interconnectedness and concentration,fire_sales,interconnectedness,1,1,2020,2020,1,0,0,0.0,1.0
+Fire sales,Liquidity preparedness,fire_sales,liquidity_preparedness,1,1,2023,2023,1,0,0,0.0,1.0
+Fund liquidity management tools,Asset price volatility,fund_liquidity_tools,asset_prices,1,1,2016,2016,0,1,0,0.0,1.0
+Fund liquidity management tools,Corporate bond markets,fund_liquidity_tools,corporate_bonds,1,1,2022,2022,0,1,0,0.0,1.0
+Fund liquidity management tools,Credit to the real economy,fund_liquidity_tools,credit_supply,1,1,2022,2022,0,0,1,0.0,0.0
+Fund liquidity management tools,Liquidity mismatch,fund_liquidity_tools,liquidity_mismatch,1,1,2021,2021,0,1,0,0.0,0.0
+Fund liquidity management tools,Market dysfunction,fund_liquidity_tools,market_dysfunction,1,1,2022,2022,0,1,0,0.0,0.0
+Fund liquidity management tools,Procyclicality,fund_liquidity_tools,procyclicality,1,1,2022,2022,0,1,0,1.0,1.0
+FX and FX swap markets,Central bank backstop facilities,fx_swaps,cb_backstop,1,1,2022,2022,1,0,0,1.0,1.0
+FX and FX swap markets,Credit to the real economy,fx_swaps,credit_supply,1,1,2020,2020,0,1,0,1.0,1.0
+FX and FX swap markets,Derivatives markets,fx_swaps,derivatives,1,1,2022,2022,1,0,0,1.0,1.0
+FX and FX swap markets,Financial stability risk,fx_swaps,financial_stability,1,1,2023,2023,1,0,0,1.0,1.0
+FX and FX swap markets,Margin and collateral calls,fx_swaps,margin,1,1,2021,2021,1,0,0,1.0,1.0
+FX and FX swap markets,Market dysfunction,fx_swaps,market_dysfunction,1,1,2022,2022,1,0,0,1.0,1.0
+FX and FX swap markets,Procyclical margin,fx_swaps,procyclical_margin,1,1,2022,2022,1,0,0,0.0,1.0
+Gilt market,Monetary policy transmission via markets,gilt_market,monetary_transmission,1,1,2025,2025,0,1,0,1.0,0.0
+Gilt market,Repo markets,gilt_market,repo,1,1,2021,2021,0,1,0,1.0,0.0
+Hedge funds,Central bank backstop facilities,hedge_funds,cb_backstop,1,1,2020,2020,1,0,0,1.0,1.0
+Hedge funds,Collateral and safe assets,hedge_funds,collateral,1,1,2024,2024,1,0,0,1.0,1.0
+Hedge funds,Dealer balance-sheet constraints,hedge_funds,dealer_constraints,1,1,2026,2026,1,0,0,0.0,1.0
+Hedge funds,Gilt market,hedge_funds,gilt_market,1,1,2023,2023,1,0,0,1.0,0.0
+Hedge funds,Interconnectedness and concentration,hedge_funds,interconnectedness,1,1,2026,2026,1,0,0,1.0,1.0
+Hedge funds,Leverage,hedge_funds,leverage,1,1,2020,2020,1,0,0,1.0,1.0
+Hedge funds,Liquidity preparedness,hedge_funds,liquidity_preparedness,1,1,2017,2017,1,0,0,0.0,0.0
+Hedge funds,Money market funds,hedge_funds,mmf,1,1,2020,2020,1,0,0,1.0,1.0
+Hedge funds,Monetary policy transmission via markets,hedge_funds,monetary_transmission,1,1,2025,2025,0,0,1,1.0,1.0
+Hedge funds,Open-ended funds,hedge_funds,oef,1,1,2020,2020,1,0,0,1.0,1.0
+Hedge funds,Size penalty,hedge_funds,x_size_penalty,1,1,2022,2022,1,0,0,1.0,1.0
+Insurers,Asset price volatility,insurers,asset_prices,1,1,2019,2019,1,0,0,0.0,1.0
+Insurers,Market dysfunction,insurers,market_dysfunction,1,1,2025,2025,1,0,0,1.0,1.0
+Interconnectedness and concentration,Central bank backstop facilities,interconnectedness,cb_backstop,1,1,2019,2019,0,0,1,1.0,1.0
+Interconnectedness and concentration,Dealer balance-sheet constraints,interconnectedness,dealer_constraints,1,1,2019,2019,0,1,0,0.0,1.0
+Interconnectedness and concentration,Dealers and market makers,interconnectedness,dealers,1,1,2017,2017,0,1,0,1.0,1.0
+Interconnectedness and concentration,Derivatives markets,interconnectedness,derivatives,1,1,2018,2018,0,1,0,1.0,1.0
+Interconnectedness and concentration,Leverage,interconnectedness,leverage,1,1,2025,2025,1,0,0,0.0,1.0
+Interconnectedness and concentration,Settlement system and failures,interconnectedness,x_settlement_system_and_failures,1,1,2020,2020,1,0,0,1.0,1.0
+LDI funds and pension schemes,Corporate bond markets,ldi,corporate_bonds,1,1,2016,2016,0,1,0,0.0,1.0
+LDI funds and pension schemes,Dealer balance-sheet constraints,ldi,dealer_constraints,1,1,2023,2023,1,0,0,1.0,1.0
+LDI funds and pension schemes,Derivatives markets,ldi,derivatives,1,1,2023,2023,1,0,0,1.0,1.0
+LDI funds and pension schemes,Gilt market,ldi,gilt_market,1,1,2020,2020,1,0,0,0.0,1.0
+LDI funds and pension schemes,Market liquidity,ldi,market_liquidity,1,1,2024,2024,0,0,1,0.0,1.0
+LDI resilience standard,Liquidity preparedness,ldi_resilience,liquidity_preparedness,1,1,2023,2023,1,0,0,0.0,1.0
+LDI resilience standard,Market dysfunction,ldi_resilience,market_dysfunction,1,1,2024,2024,0,1,0,0.0,0.0
+Leverage,Asset price volatility,leverage,asset_prices,1,1,2022,2022,1,0,0,1.0,1.0
+Leverage,Dealer balance-sheet constraints,leverage,dealer_constraints,1,1,2019,2019,0,1,0,0.0,0.0
+Leverage,Interconnectedness and concentration,leverage,interconnectedness,1,1,2025,2025,1,0,0,0.0,1.0
+Leverage,Liquidity preparedness,leverage,liquidity_preparedness,1,1,2017,2017,0,1,0,1.0,0.0
+Leverage,Margin and collateral calls,leverage,margin,1,1,2023,2023,1,0,0,0.0,1.0
+Leverage,Market-based finance,leverage,mbf,1,1,2018,2018,0,1,0,0.0,1.0
+Leverage,Monetary policy transmission via markets,leverage,monetary_transmission,1,1,2020,2020,1,0,0,1.0,1.0
+Leverage,Cross-currency basis swap spread,leverage,x_cross_currency_basis_swap_spread,1,1,2019,2019,1,0,0,1.0,0.0
+Leverage,Dealer intermediation costs,leverage,x_dealer_intermediation_costs,1,1,2019,2019,1,0,0,1.0,1.0
+Leverage,Dollar basis,leverage,x_dollar_basis,1,1,2019,2019,1,0,0,1.0,1.0
+Leverage,Refinancing risk,leverage,x_refinancing_risk,1,1,2023,2023,1,0,0,1.0,1.0
+Leverage,Trading volume in FX forwards,leverage,x_trading_volume_in_fx_forwards,1,1,2019,2019,0,1,0,1.0,1.0
+Liquidity mismatch,Central bank backstop facilities,liquidity_mismatch,cb_backstop,1,1,2019,2019,1,0,0,1.0,1.0
+Liquidity mismatch,Dealer balance-sheet constraints,liquidity_mismatch,dealer_constraints,1,1,2023,2023,1,0,0,0.0,1.0
+Liquidity mismatch,Liquidity preparedness,liquidity_mismatch,liquidity_preparedness,1,1,2018,2018,1,0,0,0.0,1.0
+Liquidity mismatch,Money markets,liquidity_mismatch,money_markets,1,1,2018,2018,0,1,0,0.0,1.0
+Liquidity mismatch,Procyclicality,liquidity_mismatch,procyclicality,1,1,2022,2022,1,0,0,1.0,1.0
+Liquidity preparedness,Corporate bond markets,liquidity_preparedness,corporate_bonds,1,1,2021,2021,1,0,0,1.0,0.0
+Liquidity preparedness,Fire sales,liquidity_preparedness,fire_sales,1,1,2019,2019,0,1,0,0.0,1.0
+Liquidity preparedness,Interconnectedness and concentration,liquidity_preparedness,interconnectedness,1,1,2023,2023,1,0,0,0.0,1.0
+Liquidity preparedness,Margin and collateral calls,liquidity_preparedness,margin,1,1,2022,2022,0,0,1,1.0,1.0
+Liquidity preparedness,Monetary policy transmission via markets,liquidity_preparedness,monetary_transmission,1,1,2015,2015,0,1,0,1.0,0.0
+Macroprudential policy for non-banks,Asset price volatility,macroprudential_nbfi,asset_prices,1,1,2023,2023,0,0,1,0.0,1.0
+Macroprudential policy for non-banks,Fire sales,macroprudential_nbfi,fire_sales,1,1,2018,2018,1,0,0,0.0,1.0
+Macroprudential policy for non-banks,Market liquidity,macroprudential_nbfi,market_liquidity,1,1,2018,2018,0,1,0,0.0,0.0
+Macroprudential policy for non-banks,Procyclicality,macroprudential_nbfi,procyclicality,1,1,2017,2017,0,1,0,1.0,1.0
+Macroprudential policy for non-banks,Reaching for yield,macroprudential_nbfi,x_reaching_for_yield,1,1,2015,2015,1,0,0,0.0,1.0
+Margin and collateral calls,Bank–non-bank linkages,margin,banks_nbfi_links,1,1,2018,2018,0,1,0,0.0,1.0
+Margin and collateral calls,Central counterparties,margin,ccps,1,1,2021,2021,1,0,0,1.0,1.0
+Margin and collateral calls,Dash for cash,margin,dash_for_cash_mech,1,1,2020,2020,1,0,0,1.0,1.0
+Margin and collateral calls,Market dysfunction,margin,market_dysfunction,1,1,2018,2018,1,0,0,0.0,1.0
+Margin and collateral calls,Procyclicality,margin,procyclicality,1,1,2017,2017,1,0,0,0.0,1.0
+Margin and collateral calls,Model risk and tail losses,margin,x_model_risk_and_tail_losses,1,1,2017,2017,1,0,0,0.0,0.0
+Margin and collateral calls,Operational risk,margin,x_operational_risk,1,1,2017,2017,1,0,0,0.0,0.0
+Margin policy reforms,Basis trades,margin_policy,basis_trade,1,1,2024,2024,0,1,0,0.0,1.0
+Margin policy reforms,Derivatives markets,margin_policy,derivatives,1,1,2024,2024,1,0,0,0.0,0.0
+Margin policy reforms,Leverage,margin_policy,leverage,1,1,2024,2024,1,0,0,0.0,0.0
+Margin policy reforms,Liquidity mismatch,margin_policy,liquidity_mismatch,1,1,2020,2020,1,0,0,1.0,1.0
+Margin policy reforms,Margin and collateral calls,margin_policy,margin,1,1,2021,2021,1,0,0,0.0,1.0
+Margin policy reforms,Market dysfunction,margin_policy,market_dysfunction,1,1,2019,2019,1,0,0,0.0,1.0
+Margin policy reforms,Procyclicality,margin_policy,procyclicality,1,1,2016,2016,0,1,0,0.0,0.0
+Market dysfunction,Asset price volatility,market_dysfunction,asset_prices,1,1,2025,2025,0,1,0,0.0,0.0
+Market dysfunction,Central bank backstop facilities,market_dysfunction,cb_backstop,1,1,2015,2015,1,0,0,0.0,1.0
+Market dysfunction,Corporate bond markets,market_dysfunction,corporate_bonds,1,1,2024,2024,1,0,0,0.0,1.0
+Market dysfunction,Dealers and market makers,market_dysfunction,dealers,1,1,2017,2017,1,0,0,1.0,1.0
+Market dysfunction,Gilt market,market_dysfunction,gilt_market,1,1,2024,2024,1,0,0,1.0,1.0
+Market dysfunction,Interconnectedness and concentration,market_dysfunction,interconnectedness,1,1,2019,2019,1,0,0,0.0,1.0
+Market dysfunction,Liquidity mismatch,market_dysfunction,liquidity_mismatch,1,1,2025,2025,1,0,0,0.0,1.0
+Market dysfunction,Margin and collateral calls,market_dysfunction,margin,1,1,2021,2021,1,0,0,0.0,1.0
+Market dysfunction,Monetary policy transmission via markets,market_dysfunction,monetary_transmission,1,1,2018,2018,0,1,0,0.0,1.0
+Market dysfunction,Money markets,market_dysfunction,money_markets,1,1,2025,2025,1,0,0,1.0,1.0
+Market dysfunction,Duration risk and local supply channel strength,market_dysfunction,x_duration_risk_and_local_supply_channel_strength,1,1,2024,2024,1,0,0,0.0,0.0
+Market liquidity,Central counterparties,market_liquidity,ccps,1,1,2017,2017,0,1,0,0.0,1.0
+Market liquidity,Collateral and safe assets,market_liquidity,collateral,1,1,2024,2024,0,1,0,1.0,0.0
+Market liquidity,Dealer balance-sheet constraints,market_liquidity,dealer_constraints,1,1,2025,2025,0,1,0,0.0,1.0
+Market liquidity,Financial stability risk,market_liquidity,financial_stability,1,1,2017,2017,1,0,0,0.0,0.0
+Market liquidity,Liquidity mismatch,market_liquidity,liquidity_mismatch,1,1,2026,2026,1,0,0,0.0,1.0
+Market liquidity,Open-ended funds,market_liquidity,oef,1,1,2021,2021,1,0,0,1.0,1.0
+Market liquidity,Real term premia response to monetary policy,market_liquidity,x_real_term_premia_response_to_monetary_policy,1,1,2023,2023,1,0,0,1.0,1.0
+Market liquidity,Size penalty,market_liquidity,x_size_penalty,1,1,2022,2022,0,1,0,1.0,1.0
+Market-based finance,Bank–non-bank linkages,mbf,banks_nbfi_links,1,1,2023,2023,1,0,0,0.0,1.0
+Market-based finance,Credit to the real economy,mbf,credit_supply,1,1,2020,2020,1,0,0,0.0,1.0
+Market-based finance,Hedge funds,mbf,hedge_funds,1,1,2026,2026,1,0,0,1.0,1.0
+Market-based finance,Market dysfunction,mbf,market_dysfunction,1,1,2022,2022,1,0,0,1.0,1.0
+Market-based finance,Market liquidity,mbf,market_liquidity,1,1,2026,2026,1,0,0,1.0,1.0
+Money market funds,Asset price volatility,mmf,asset_prices,1,1,2020,2020,1,0,0,1.0,1.0
+Money market funds,Credit to the real economy,mmf,credit_supply,1,1,2020,2020,1,0,0,0.0,1.0
+Money market funds,Fire sales,mmf,fire_sales,1,1,2020,2020,1,0,0,0.0,1.0
+Money market funds,FX and FX swap markets,mmf,fx_swaps,1,1,2019,2019,1,0,0,1.0,0.0
+Money market funds,Monetary policy transmission via markets,mmf,monetary_transmission,1,1,2020,2020,0,1,0,1.0,1.0
+Money market fund reform,Financial stability risk,mmf_reform,financial_stability,1,1,2026,2026,1,0,0,0.0,1.0
+Money market fund reform,Run risk,mmf_reform,run_risk,1,1,2026,2026,1,0,0,1.0,0.0
+Market maker of last resort,Collateral and safe assets,mmlr,collateral,1,1,2019,2019,1,0,0,0.0,1.0
+Market maker of last resort,Market dysfunction,mmlr,market_dysfunction,1,1,2024,2024,0,1,0,0.0,1.0
+Market maker of last resort,Open-ended funds,mmlr,oef,1,1,2023,2023,1,0,0,0.0,1.0
+Monetary policy transmission via markets,Dealers and market makers,monetary_transmission,dealers,1,1,2015,2015,0,1,0,1.0,1.0
+Monetary policy transmission via markets,Financial stability risk,monetary_transmission,financial_stability,1,1,2025,2025,0,0,1,0.0,0.0
+Monetary policy transmission via markets,Fire sales,monetary_transmission,fire_sales,1,1,2017,2017,1,0,0,0.0,1.0
+Monetary policy transmission via markets,Market-based finance,monetary_transmission,mbf,1,1,2015,2015,1,0,0,1.0,1.0
+Monetary policy transmission via markets,Procyclicality,monetary_transmission,procyclicality,1,1,2018,2018,0,1,0,0.0,1.0
+Monetary policy transmission via markets,Bank net interest margins,monetary_transmission,x_bank_net_interest_margins,1,1,2023,2023,0,1,0,0.0,1.0
+Monetary policy transmission via markets,Excess bond premium,monetary_transmission,x_excess_bond_premium,1,1,2020,2020,1,0,0,1.0,1.0
+Money markets,Asset price volatility,money_markets,asset_prices,1,1,2020,2020,1,0,0,0.0,1.0
+Money markets,Margin and collateral calls,money_markets,margin,1,1,2022,2022,1,0,0,1.0,1.0
+Money markets,Market dysfunction,money_markets,market_dysfunction,1,1,2018,2018,0,1,0,1.0,1.0
+Open-ended funds,Dealer balance-sheet constraints,oef,dealer_constraints,1,1,2015,2015,0,1,0,1.0,1.0
+Open-ended funds,Financial stability risk,oef,financial_stability,1,1,2023,2023,1,0,0,0.0,0.0
+Open-ended funds,Market dysfunction,oef,market_dysfunction,1,1,2021,2021,1,0,0,1.0,1.0
+Open-ended funds,Run risk,oef,run_risk,1,1,2021,2021,1,0,0,0.0,0.0
+Private credit and private equity,Procyclicality,private_credit,procyclicality,1,1,2024,2024,0,1,0,0.0,0.0
+Private credit and private equity,"Global shocks (US, euro area, Japan)",private_credit,x_global_shocks_us_euro_area_japan,1,1,2020,2020,1,0,0,0.0,1.0
+Procyclical margin,Asset price volatility,procyclical_margin,asset_prices,1,1,2022,2022,1,0,0,0.0,0.0
+Procyclical margin,Financial stability risk,procyclical_margin,financial_stability,1,1,2023,2023,1,0,0,0.0,1.0
+Procyclical margin,Liquidity preparedness,procyclical_margin,liquidity_preparedness,1,1,2017,2017,0,1,0,0.0,0.0
+Procyclical margin,Margin and collateral calls,procyclical_margin,margin,1,1,2022,2022,1,0,0,1.0,1.0
+Procyclical margin,Procyclicality,procyclical_margin,procyclicality,1,1,2018,2018,0,1,0,0.0,0.0
+Procyclicality,Central counterparties,procyclicality,ccps,1,1,2018,2018,1,0,0,1.0,1.0
+Procyclicality,Dealer balance-sheet constraints,procyclicality,dealer_constraints,1,1,2024,2024,1,0,0,0.0,1.0
+Procyclicality,Fire sales,procyclicality,fire_sales,1,1,2022,2022,1,0,0,0.0,1.0
+Procyclicality,Leverage,procyclicality,leverage,1,1,2023,2023,1,0,0,0.0,0.0
+Procyclicality,Margin and collateral calls,procyclicality,margin,1,1,2015,2015,1,0,0,0.0,1.0
+Procyclicality,Margin policy reforms,procyclicality,margin_policy,1,1,2018,2018,1,0,0,0.0,1.0
+Procyclicality,Market dysfunction,procyclicality,market_dysfunction,1,1,2018,2018,1,0,0,0.0,1.0
+Procyclicality,Market liquidity,procyclicality,market_liquidity,1,1,2018,2018,0,1,0,0.0,1.0
+Repo markets,Asset price volatility,repo,asset_prices,1,1,2025,2025,1,0,0,1.0,1.0
+Repo markets,Credit to the real economy,repo,credit_supply,1,1,2025,2025,0,1,0,0.0,1.0
+Repo markets,Dealer balance-sheet constraints,repo,dealer_constraints,1,1,2023,2023,1,0,0,1.0,1.0
+Repo markets,Fire sales,repo,fire_sales,1,1,2019,2019,1,0,0,0.0,1.0
+Repo markets,Hedge funds,repo,hedge_funds,1,1,2023,2023,0,1,0,0.0,0.0
+Repo markets,Interconnectedness and concentration,repo,interconnectedness,1,1,2025,2025,1,0,0,0.0,1.0
+Repo markets,Leverage,repo,leverage,1,1,2023,2023,1,0,0,1.0,1.0
+Repo markets,Market dysfunction,repo,market_dysfunction,1,1,2025,2025,1,0,0,1.0,1.0
+Run risk,Asset price volatility,run_risk,asset_prices,1,1,2019,2019,1,0,0,1.0,1.0
+Run risk,Central bank backstop facilities,run_risk,cb_backstop,1,1,2020,2020,1,0,0,1.0,1.0
+Run risk,Liquidity mismatch,run_risk,liquidity_mismatch,1,1,2026,2026,0,1,0,0.0,1.0
+Run risk,Margin and collateral calls,run_risk,margin,1,1,2022,2022,1,0,0,0.0,1.0
+Run risk,Market dysfunction,run_risk,market_dysfunction,1,1,2016,2016,1,0,0,0.0,1.0
+Run risk,Procyclicality,run_risk,procyclicality,1,1,2016,2016,1,0,0,0.0,0.0
+Stablecoins and crypto,Market dysfunction,stablecoins,market_dysfunction,1,1,2022,2022,1,0,0,0.0,0.0
+System-wide stress testing,Asset price volatility,stress_testing,asset_prices,1,1,2018,2018,1,0,0,0.0,1.0
+US Treasury market,Corporate bond markets,us_treasury,corporate_bonds,1,1,2021,2021,1,0,0,1.0,1.0
+US Treasury market,Credit to the real economy,us_treasury,credit_supply,1,1,2015,2015,1,0,0,1.0,1.0
+US Treasury market,Fire sales,us_treasury,fire_sales,1,1,2019,2019,1,0,0,0.0,1.0
+US Treasury market,Gilt market,us_treasury,gilt_market,1,1,2015,2015,1,0,0,1.0,1.0
+US Treasury market,Liquidity mismatch,us_treasury,liquidity_mismatch,1,1,2024,2024,0,1,0,0.0,1.0
+US Treasury market,Money markets,us_treasury,money_markets,1,1,2016,2016,1,0,0,1.0,1.0
+Adverse selection risk,Market liquidity,x_adverse_selection_risk,market_liquidity,1,1,2018,2018,0,1,0,0.0,1.0
+Bank counterparty risk,Collateral and safe assets,x_bank_counterparty_risk,collateral,1,1,2024,2024,1,0,0,1.0,1.0
+Benchmarking and relative performance,Fire sales,x_benchmarking_and_relative_performance,fire_sales,1,1,2016,2016,1,0,0,0.0,1.0
+Bond-equity correlation,LDI funds and pension schemes,x_bond_equity_correlation,ldi,1,1,2017,2017,1,0,0,1.0,1.0
+Business-unit level capital allocation,Corporate bond markets,x_business_unit_level_capital_allocation,corporate_bonds,1,1,2021,2021,1,0,0,0.0,1.0
+Capital costs associated with prudential regulation,Market liquidity,x_capital_costs_associated_with_prudential_regulation,market_liquidity,1,1,2015,2015,1,0,0,0.0,0.0
+Capital gains tax exemption on gilts,Market-based finance,x_capital_gains_tax_exemption_on_gilts,mbf,1,1,2026,2026,1,0,0,0.0,1.0
+Capital inflows,Procyclicality,x_capital_inflows,procyclicality,1,1,2017,2017,1,0,0,1.0,1.0
+Capital regulation,Dealer balance-sheet constraints,x_capital_regulation,dealer_constraints,1,1,2022,2022,0,1,0,0.0,1.0
+Capital regulation,Market liquidity,x_capital_regulation,market_liquidity,1,1,2022,2022,0,1,0,0.0,1.0
+Circuit breakers,Market dysfunction,x_circuit_breakers,market_dysfunction,1,1,2018,2018,0,1,0,0.0,1.0
+Client sophistication,Size penalty,x_client_sophistication,x_size_penalty,1,1,2022,2022,1,0,0,1.0,1.0
+Company size,Market-based finance,x_company_size,mbf,1,1,2020,2020,1,0,0,1.0,1.0
+Coordination frictions in pooled LDIs,Fire sales,x_coordination_frictions_in_pooled_ldis,fire_sales,1,1,2024,2024,1,0,0,1.0,1.0
+Corporate bond purchases,Credit to the real economy,x_corporate_bond_purchases,credit_supply,1,1,2018,2018,0,1,0,0.0,1.0
+Corporate profitability shock,Asset price volatility,x_corporate_profitability_shock,asset_prices,1,1,2019,2019,1,0,0,0.0,1.0
+Credible inflation targeting,Inflation expectations,x_credible_inflation_targeting,x_inflation_expectations,1,1,2016,2016,0,1,0,0.0,1.0
+Credit rating,Dealer balance-sheet constraints,x_credit_rating,dealer_constraints,1,1,2016,2016,1,0,0,0.0,1.0
+Data release timing outside market hours,Market liquidity,x_data_release_timing_outside_market_hours,market_liquidity,1,1,2024,2024,0,1,0,0.0,0.0
+Dealer-client relationships,Market liquidity,x_dealer_client_relationships,market_liquidity,1,1,2025,2025,1,0,0,1.0,1.0
+Debt maturity profile,Interest rate exposure,x_debt_maturity_profile,x_interest_rate_exposure,1,1,2023,2023,1,0,0,0.0,1.0
+Deterioration in economic outlook,Asset price volatility,x_deterioration_in_economic_outlook,asset_prices,1,1,2021,2021,1,0,0,0.0,1.0
+Digital investment platforms and educational material,Market-based finance,x_digital_investment_platforms_and_educational_material,mbf,1,1,2026,2026,1,0,0,0.0,1.0
+Economic disruption from Covid-19,Corporate cash-flow deficit,x_economic_disruption_from_covid_19,x_corporate_cash_flow_deficit,1,1,2020,2020,1,0,0,1.0,1.0
+Electronic and automated trading growth,Flash crashes,x_electronic_and_automated_trading_growth,x_flash_crashes,1,1,2020,2020,1,0,0,0.0,1.0
+Endogenous trader responses to regulation,Welfare cost of regulation,x_endogenous_trader_responses_to_regulation,x_welfare_cost_of_regulation,1,1,2022,2022,0,1,0,0.0,1.0
+ETF price data,Fund liquidity management tools,x_etf_price_data,fund_liquidity_tools,1,1,2021,2021,1,0,0,1.0,0.0
+Exchange rate depreciation,Bank net worth,x_exchange_rate_depreciation,x_bank_net_worth,1,1,2020,2020,0,1,0,0.0,1.0
+Financial stress (Covid-19),Market liquidity,x_financial_stress_covid_19,market_liquidity,1,1,2020,2020,1,0,0,1.0,1.0
+Fiscal expansion announcement,Asset price volatility,x_fiscal_expansion_announcement,asset_prices,1,1,2024,2024,1,0,0,0.0,1.0
+Fixed costs of relationship creation,Trading relationships and persistence,x_fixed_costs_of_relationship_creation,x_trading_relationships_and_persistence,1,1,2025,2025,1,0,0,0.0,0.0
+Fundamental inflation shocks,Asset price volatility,x_fundamental_inflation_shocks,asset_prices,1,1,2023,2023,1,0,0,1.0,1.0
+Global financial conditions,Credit to the real economy,x_global_financial_conditions,credit_supply,1,1,2021,2021,0,1,0,0.0,0.0
+"Global shocks (US, euro area, Japan)",Corporate bond markets,x_global_shocks_us_euro_area_japan,corporate_bonds,1,1,2020,2020,1,0,0,0.0,1.0
+"Global shocks (US, euro area, Japan)",Gilt market,x_global_shocks_us_euro_area_japan,gilt_market,1,1,2022,2022,1,0,0,1.0,1.0
+"Global shocks (US, euro area, Japan)",Investment,x_global_shocks_us_euro_area_japan,x_investment,1,1,2020,2020,0,1,0,0.0,0.0
+"Global shocks (US, euro area, Japan)",Output,x_global_shocks_us_euro_area_japan,x_output,1,1,2020,2020,0,1,0,1.0,1.0
+Hedging demand for dollars,Dollar basis,x_hedging_demand_for_dollars,x_dollar_basis,1,1,2019,2019,1,0,0,1.0,1.0
+hedging strategy design,funding needs and transaction costs,x_hedging_strategy_design,x_funding_needs_and_transaction_costs,1,1,2017,2017,0,0,1,0.0,1.0
+Herd behaviour,Asset price volatility,x_herd_behaviour,asset_prices,1,1,2015,2015,1,0,0,0.0,0.0
+Higher interest rates,Corporate debt-servicing costs,x_higher_interest_rates,x_corporate_debt_servicing_costs,1,1,2023,2023,1,0,0,0.0,1.0
+Higher interest rates,Default risk and risk premium,x_higher_interest_rates,x_default_risk_and_risk_premium,1,1,2024,2024,1,0,0,1.0,0.0
+Inflation mispricing,Hedge funds,x_inflation_mispricing,hedge_funds,1,1,2023,2023,1,0,0,1.0,1.0
+Inflation risks,Bond-equity correlation,x_inflation_risks,x_bond_equity_correlation,1,1,2016,2016,1,0,0,0.0,0.0
+Information cost decline,Market liquidity,x_information_cost_decline,market_liquidity,1,1,2023,2023,1,0,0,0.0,1.0
+Information depreciation rate,Market liquidity,x_information_depreciation_rate,market_liquidity,1,1,2023,2023,0,1,0,0.0,1.0
+Investor confidence,Credit to the real economy,x_investor_confidence,credit_supply,1,1,2024,2024,0,0,1,0.0,0.0
+Investor sophistication,Market liquidity,x_investor_sophistication,market_liquidity,1,1,2020,2020,1,0,0,1.0,1.0
+Lack of climate disclosure and policy,Asset price volatility,x_lack_of_climate_disclosure_and_policy,asset_prices,1,1,2022,2022,1,0,0,0.0,0.0
+Low interest rates,Market dysfunction,x_low_interest_rates,market_dysfunction,1,1,2019,2019,1,0,0,0.0,1.0
+Lower trading volume,Settlement failure rates,x_lower_trading_volume,x_settlement_failure_rates,1,1,2020,2020,1,0,0,1.0,1.0
+Macroeconomic news announcements,Hedge funds,x_macroeconomic_news_announcements,hedge_funds,1,1,2020,2020,1,0,0,1.0,1.0
+Macroeconomic news-based FX trading strategies,Hedge funds,x_macroeconomic_news_based_fx_trading_strategies,hedge_funds,1,1,2024,2024,1,0,0,1.0,1.0
+Market structure and size,Size penalty,x_market_structure_and_size,x_size_penalty,1,1,2022,2022,0,0,1,1.0,1.0
+Mini-budget fiscal shock,Asset price volatility,x_mini_budget_fiscal_shock,asset_prices,1,1,2024,2024,1,0,0,1.0,1.0
+Mini-budget fiscal shock,Leverage,x_mini_budget_fiscal_shock,leverage,1,1,2024,2024,1,0,0,1.0,1.0
+Momentum-based FX investment strategies,Asset price volatility,x_momentum_based_fx_investment_strategies,asset_prices,1,1,2017,2017,1,0,0,0.0,0.0
+Momentum-based FX investment strategies,Hedge funds,x_momentum_based_fx_investment_strategies,hedge_funds,1,1,2024,2024,1,0,0,1.0,1.0
+Myopia and heuristics,Asset price volatility,x_myopia_and_heuristics,asset_prices,1,1,2015,2015,1,0,0,0.0,0.0
+News-reading algorithms,Asset price volatility,x_news_reading_algorithms,asset_prices,1,1,2017,2017,1,0,0,0.0,0.0
+Peer comparison monitoring practices,Fire sales,x_peer_comparison_monitoring_practices,fire_sales,1,1,2016,2016,1,0,0,0.0,1.0
+Political and economic uncertainty,Asset price volatility,x_political_and_economic_uncertainty,asset_prices,1,1,2017,2017,1,0,0,0.0,1.0
+Pooled LDI structure requiring coordination among multiple pensions,Fire sales,x_pooled_ldi_structure_requiring_coordination_among_multiple_p,fire_sales,1,1,2024,2024,1,0,0,1.0,1.0
+Portfolio rebalancing,Asset price volatility,x_portfolio_rebalancing,asset_prices,1,1,2017,2017,1,0,0,0.0,0.0
+Preferred habitat investors,Asset price volatility,x_preferred_habitat_investors,asset_prices,1,1,2021,2021,0,0,1,1.0,1.0
+Preferred habitat investors,Dealers and market makers,x_preferred_habitat_investors,dealers,1,1,2025,2025,0,1,0,1.0,1.0
+Quantitative tightening and gilt maturities,Liquidity mismatch,x_quantitative_tightening_and_gilt_maturities,liquidity_mismatch,1,1,2026,2026,0,1,0,0.0,1.0
+Rating change announcements,Dealers and market makers,x_rating_change_announcements,dealers,1,1,2020,2020,1,0,0,1.0,1.0
+Reaching for yield,Asset price volatility,x_reaching_for_yield,asset_prices,1,1,2017,2017,0,1,0,1.0,0.0
+Recent dealer relationship,Probability of trading with dealer,x_recent_dealer_relationship,x_probability_of_trading_with_dealer,1,1,2025,2025,1,0,0,1.0,1.0
+Redemption speed,Asset price volatility,x_redemption_speed,asset_prices,1,1,2016,2016,1,0,0,0.0,1.0
+Regulatory fragmentation and opacity,Financial stability risk,x_regulatory_fragmentation_and_opacity,financial_stability,1,1,2026,2026,1,0,0,0.0,1.0
+Regulatory minimum leverage ratio,Money markets,x_regulatory_minimum_leverage_ratio,money_markets,1,1,2015,2015,0,1,0,0.0,0.0
+Regulatory reforms,Dealer balance-sheet constraints,x_regulatory_reforms,dealer_constraints,1,1,2015,2015,0,1,0,0.0,0.0
+Ring-fencing,Financial stability risk,x_ring_fencing,financial_stability,1,1,2022,2022,1,0,0,1.0,1.0
+Ring-fencing,Bank counterparty risk,x_ring_fencing,x_bank_counterparty_risk,1,1,2022,2022,0,1,0,1.0,1.0
+Ring-fencing,Bank repo borrowing costs during stress,x_ring_fencing,x_bank_repo_borrowing_costs_during_stress,1,1,2022,2022,0,1,0,1.0,1.0
+Ring-fencing,Non-ring-fenced subsidiary risk appetite,x_ring_fencing,x_non_ring_fenced_subsidiary_risk_appetite,1,1,2022,2022,1,0,0,1.0,1.0
+Ring-fencing,Wholesale funding and deposits,x_ring_fencing,x_wholesale_funding_and_deposits,1,1,2022,2022,1,0,0,1.0,1.0
+Risk mispricing from search for yield,Credit to the real economy,x_risk_mispricing_from_search_for_yield,credit_supply,1,1,2015,2015,0,1,0,0.0,0.0
+Risk-weighted capital requirements,Money markets,x_risk_weighted_capital_requirements,money_markets,1,1,2015,2015,1,0,0,0.0,0.0
+Search frictions,Financial stability risk,x_search_frictions,financial_stability,1,1,2022,2022,1,0,0,0.0,1.0
+Secularisation of loans,Credit to the real economy,x_secularisation_of_loans,credit_supply,1,1,2024,2024,0,1,0,0.0,1.0
+Security borrowing costs relative to fail costs,Market dysfunction,x_security_borrowing_costs_relative_to_fail_costs,market_dysfunction,1,1,2019,2019,1,0,0,0.0,1.0
+Shock to expected loss rate,Asset price volatility,x_shock_to_expected_loss_rate,asset_prices,1,1,2016,2016,0,1,0,0.0,1.0
+Strategic delay by arbitrageurs,Fire sales,x_strategic_delay_by_arbitrageurs,fire_sales,1,1,2024,2024,1,0,0,1.0,0.0
+Supply shocks,Bond-equity correlation,x_supply_shocks,x_bond_equity_correlation,1,1,2016,2016,1,0,0,0.0,0.0
+Trading delays,Asset price volatility,x_trading_delays,asset_prices,1,1,2023,2023,0,0,1,0.0,1.0
+Trading delays,Financial stability risk,x_trading_delays,financial_stability,1,1,2022,2022,1,0,0,0.0,1.0
+Trading delays,Market liquidity,x_trading_delays,market_liquidity,1,1,2023,2023,0,1,0,0.0,1.0
+Trading platforms reducing search costs,Aggregate welfare,x_trading_platforms_reducing_search_costs,x_aggregate_welfare,1,1,2022,2022,1,0,0,0.0,1.0
+transaction costs,Central counterparties,x_transaction_costs,ccps,1,1,2017,2017,0,1,0,1.0,1.0
+Uncertainty about virus spreading,Gilt market,x_uncertainty_about_virus_spreading,gilt_market,1,1,2020,2020,1,0,0,0.0,1.0
+Volatility estimation,Margin and collateral calls,x_volatility_estimation,margin,1,1,2017,2017,0,0,1,1.0,0.0

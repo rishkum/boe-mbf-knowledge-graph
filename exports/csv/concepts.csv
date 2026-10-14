@@ -1,0 +1,277 @@
+﻿concept_id,name,facet,vocabulary,definition,aliases,broader,publications_central_or_analysed,claims,event_date,shown
+market_liquidity,Market liquidity,phenomenon,fixed vocabulary (57),The ability to trade quickly in size without moving prices much.,bid-ask spread; bid-ask spreads; illiquidity; liquidity conditions; market depth; market liquidity; price impact,,120,175,,True
+gilt_market,Gilt market,market,fixed vocabulary (57),"The market for UK government bonds, the core sterling safe asset.",gilt; gilt market; gilt yields; gilts; government bond market; government bonds; index-linked gilts; sovereign bonds,,81,35,,True
+dealers,Dealers and market makers,sector,fixed vocabulary (57),Banks and firms that intermediate trades by holding inventory and quoting prices.,broker-dealers; dealer; dealers; dealers and market makers; gemms; gilt-edged market makers; market makers; market-makers; primary dealers; principal trading firms,Market-based finance,75,70,,True
+dealer_constraints,Dealer balance-sheet constraints,vulnerability,fixed vocabulary (57),"Limits on dealers' willingness or ability to absorb asset sales, often linked to capital and leverage rules.",balance sheet constraints; dealer balance sheet; dealer balance-sheet constraints; dealer capacity; intermediation capacity; leverage ratio constraint; warehousing capacity,,75,102,,True
+monetary_transmission,Monetary policy transmission via markets,phenomenon,fixed vocabulary (57),How central bank actions pass through market prices and non-bank behaviour to the economy.,asset purchases; central bank balance sheet; monetary policy transmission; monetary policy transmission via markets; qe; qt; quantitative easing; quantitative tightening; transmission mechanism,,64,76,,True
+leverage,Leverage,vulnerability,fixed vocabulary (57),Using borrowed money or derivatives to take exposures larger than one's capital.,borrowing; leverage; leveraged; repo leverage; synthetic leverage,,58,86,,True
+market_dysfunction,Market dysfunction,phenomenon,fixed vocabulary (57),A breakdown in normal market functioning where prices stop reflecting fundamentals and trading becomes impaired.,disorderly; dysfunctional; market dysfunction; market functioning; market stress; market turmoil,,58,111,,True
+corporate_bonds,Corporate bond markets,market,fixed vocabulary (57),Markets in debt securities issued by companies.,bond market liquidity; corporate bond; corporate bond markets; corporate bonds; credit markets; credit spreads; high yield; investment grade,,57,47,,True
+liquidity_mismatch,Liquidity mismatch,vulnerability,fixed vocabulary (57),Offering investors faster access to cash than the underlying assets can be sold for without large price impact.,daily dealing; liquidity mismatch; liquidity transformation; redemption risk; redemptions,,57,48,,True
+mbf,Market-based finance,sector,fixed vocabulary (57),Credit and financial intermediation provided through capital markets and non-bank financial institutions rather than bank balance sheets.,market-based finance; nbfi; nbfis; non-bank; non-bank financial institutions; non-bank financial intermediation; non-bank lenders; non-banks; nonbank; nonbank lenders; nonbanks; shadow banking,,54,27,,True
+derivatives,Derivatives markets,market,fixed vocabulary (57),Markets for contracts whose value depends on underlying assets or rates.,cds; credit default swaps; derivative; derivatives; derivatives markets; futures; interest rate swaps; options; otc derivatives,,54,31,,True
+financial_stability,Financial stability risk,phenomenon,fixed vocabulary (57),Risks that problems in the financial system disrupt the provision of services to the real economy.,financial stability; financial stability risk; macroprudential; systemic; systemic risk; tail risk,,54,133,,True
+repo,Repo markets,market,fixed vocabulary (57),Markets for short-term borrowing secured against collateral such as gilts.,gilt repo; repo; repo market; repo markets; repurchase agreement; repurchase agreements; secured funding; sonia,,52,40,,True
+fire_sales,Fire sales,vulnerability,fixed vocabulary (57),"Forced sales of assets at depressed prices, which can push prices down further and spread losses.",asset sales; distressed selling; fire sale; fire sales; forced sales; forced selling,,52,128,,True
+interconnectedness,Interconnectedness and concentration,vulnerability,fixed vocabulary (57),Links between institutions or common exposures through which stress spreads.,common exposures; concentration risk; contagion; interconnected; interconnectedness; interconnectedness and concentration; network; spillover; spillovers,,51,75,,True
+asset_prices,Asset price volatility,phenomenon,fixed vocabulary (57),Large or rapid moves in asset prices and yields.,asset price volatility; asset prices; mispricing; price volatility; risk premia; term premium; valuations; volatility; yields,,51,199,,True
+cb_backstop,Central bank backstop facilities,policy,fixed vocabulary (57),"Facilities through which the central bank lends to the financial system, including to non-banks, in stress.",backstop; central bank backstop facilities; central bank liquidity; cnrf; contingent nbfi repo facility; lender of last resort; liquidity facilities; liquidity facility; liquidity insurance; swap line; swap lines,,51,146,,True
+margin,Margin and collateral calls,vulnerability,fixed vocabulary (57),Payments of cash or collateral to cover potential or realised losses on derivatives and secured financing.,collateral calls; initial margin; margin and collateral calls; margin call; margin calls; margining; variation margin,,46,93,,True
+hedge_funds,Hedge funds,sector,fixed vocabulary (57),"Lightly regulated investment funds that typically use leverage, derivatives and short positions.",hedge fund; hedge funds; leveraged funds; relative value funds,Market-based finance,37,39,,True
+collateral,Collateral and safe assets,phenomenon,fixed vocabulary (57),"Assets pledged to secure borrowing or derivatives, typically government bonds.",collateral and safe assets; collateral calls on; collateral scarcity; collateral transformation; high quality liquid assets; hqla; rehypothecation; safe assets,,37,58,,True
+ccps,Central counterparties,sector,fixed vocabulary (57),"Entities that stand between buyers and sellers of contracts, collecting margin to manage counterparty risk.",ccp; ccps; central clearing; central counterparties; central counterparty; clearing house; clearing members; securities settlement; settlement fails,Market-based finance,36,48,,True
+oef,Open-ended funds,sector,fixed vocabulary (57),"Investment funds that allow investors to redeem shares at short notice, often while holding less liquid assets.",asset management; asset managers; bond funds; corporate bond funds; investment funds; mutual funds; open ended funds; open-ended fund; open-ended funds; property funds,Market-based finance,35,21,,True
+ldi,LDI funds and pension schemes,sector,fixed vocabulary (57),"Strategies used by defined-benefit pension schemes to hedge liabilities with gilts and derivatives, often with leverage.",db pension; defined benefit pension; ldi; ldi funds; ldi funds and pension schemes; liability driven investment; liability-driven investment; pension funds; pension schemes,Market-based finance,35,21,,True
+banks_nbfi_links,Bank–non-bank linkages,sector,fixed vocabulary (57),"Funding, credit and derivative exposures connecting banks and non-bank financial institutions.",bank exposures to nbfi; bank-nbfi; bank–non-bank linkages; counterparty credit risk; prime broker; prime brokerage,Market-based finance,31,25,,True
+credit_supply,Credit to the real economy,phenomenon,fixed vocabulary (57),The availability and cost of finance for households and firms.,access to finance; borrowing costs; corporate financing; credit provision; credit supply; credit to the real economy; financing conditions,,30,105,,True
+money_markets,Money markets,market,fixed vocabulary (57),Markets for short-term unsecured and secured funding instruments.,certificates of deposit; commercial paper; money market; money markets; short-term funding markets,,25,49,,True
+procyclicality,Procyclicality,vulnerability,fixed vocabulary (57),Behaviour that amplifies booms and busts rather than dampening them.,amplification; doom loop; feedback loop; feedback loops; procyclical; procyclicality; spiral,,25,32,,True
+fx_swaps,FX and FX swap markets,market,fixed vocabulary (57),"Markets for exchanging currencies, including swaps used to obtain foreign-currency funding.",cross-currency basis; dollar funding; foreign exchange market; foreign exchange swaps; fx and fx swap markets; fx market; fx swap; fx swaps,,23,15,,True
+insurers,Insurers,sector,fixed vocabulary (57),"Insurance companies, large long-term investors in bonds and users of derivatives for hedging.",annuity providers; insurance companies; insurer; insurers; life insurers; matching adjustment; solvency ii,Market-based finance,22,3,,True
+procyclical_margin,Procyclical margin,vulnerability,fixed vocabulary (57),"Margin requirements that rise sharply in stress, draining liquidity exactly when it is scarce.",anti-procyclical; margin procyclicality; procyclical margin; procyclicality of margin,Margin and collateral calls,21,31,,True
+run_risk,Run risk,vulnerability,fixed vocabulary (57),The incentive for investors to withdraw early because those who leave first get better terms.,dash for redemptions; first mover advantage; first-mover advantage; fund runs; investor run; investor runs; run risk; runs on funds,,17,26,,True
+dash_for_cash_mech,Dash for cash,phenomenon,fixed vocabulary (57),"A sudden, system-wide demand for cash that leads investors to sell even safe assets.",dash for cash; demand for liquidity; flight to cash; liquidity demand; liquidity hoarding,,17,3,,True
+macroprudential_nbfi,Macroprudential policy for non-banks,policy,fixed vocabulary (57),Policy that addresses system-wide risks from non-bank activity rather than individual firms.,activity-based regulation; macroprudential policy for non-banks; nbfi regulation; regulatory framework for nbfi; system-wide approach,,15,15,,True
+mmf,Money market funds,sector,fixed vocabulary (57),Funds investing in short-term debt that offer investors daily liquidity and are used as cash-management vehicles.,cnav; lvnav; mmf; mmfs; money market fund; money market funds; vnav,Market-based finance,11,6,,True
+us_treasury,US Treasury market,market,fixed vocabulary (57),"The market for US government debt, a global benchmark whose stress spills over to sterling markets.",treasuries; treasury market; us treasuries; us treasury; us treasury market,,11,9,,True
+liquidity_preparedness,Liquidity preparedness,vulnerability,fixed vocabulary (57),Whether institutions hold enough liquid assets to meet margin calls and redemptions in stress.,cash buffers; liquid assets; liquidity buffers; liquidity management; liquidity preparedness,,11,19,,True
+private_credit,Private credit and private equity,sector,fixed vocabulary (57),"Non-bank lending and equity investment outside public markets, including leveraged finance.",clo; clos; collateralised loan obligations; direct lending; leveraged lending; leveraged loans; private credit; private credit and private equity; private debt; private equity; private markets,Market-based finance,10,7,,True
+equity_markets,Equity markets,market,fixed vocabulary (57),Markets for company shares.,equities; equity market; equity markets; stock market,,8,2,,True
+margin_policy,Margin policy reforms,policy,fixed vocabulary (57),Policies to make margin calls more predictable and less procyclical.,apc tools; central clearing mandate; clearing mandate; margin policy reforms; margin practices; margin reform; margin transparency,Macroprudential policy for non-banks,8,37,,True
+basis_trade,Basis trades,vulnerability,fixed vocabulary (57),"Leveraged trades exploiting small price differences between related instruments, typically funded in repo.",basis trade; basis trades; cash-futures basis; relative value trades; swap spread trade,Leverage,5,7,,True
+stress_testing,System-wide stress testing,policy,fixed vocabulary (57),Exercises that simulate how institutions and their interactions respond to severe scenarios.,liquidity stress test; scenario analysis; stress test; stress testing; stress tests; swes; system-wide exploratory scenario; system-wide stress testing,,5,8,,True
+mmlr,Market maker of last resort,policy,fixed vocabulary (57),Central bank purchases or sales of assets to restore functioning in a dysfunctional core market.,backstop purchases; buy-sell tools; buy/sell tools; financial stability asset purchases; gilt purchases; market maker of last resort; market-maker of last resort; temporary purchases,Central bank backstop facilities,4,9,,True
+data_gaps,Data and transparency on non-banks,policy,fixed vocabulary (57),Efforts to collect and use granular data on non-bank exposures and activity.,aifmd; data and transparency on non-banks; data gaps; emir; mifir; regulatory data; trade repository; transaction data; transparency,,4,4,,True
+fund_liquidity_tools,Fund liquidity management tools,policy,fixed vocabulary (57),Tools that pass the cost of redemptions to redeeming investors or slow redemptions.,anti-dilution; fund liquidity management tools; gates; liquidity management tools; lmts; notice periods; redemption fees; redemption gates; swing pricing,Macroprudential policy for non-banks,3,11,,True
+stablecoins,Stablecoins and crypto,sector,fixed vocabulary (57),"Digital assets, including tokens designed to hold a stable value against a currency.",crypto assets; crypto-assets; cryptoassets; cryptocurrency; decentralised finance; defi; stablecoin; stablecoins; stablecoins and crypto; tokenisation,Market-based finance,2,3,,True
+ldi_resilience,LDI resilience standard,policy,fixed vocabulary (57),The FPC's recommended minimum buffer for LDI funds to withstand a large rise in gilt yields.,ldi buffer; ldi resilience; ldi resilience standard; minimum resilience; resilience standard; yield buffer,Macroprudential policy for non-banks,1,2,,True
+mmf_reform,Money market fund reform,policy,fixed vocabulary (57),"Proposals to make money market funds more resilient, such as higher liquid-asset requirements.",liquidity buffers for mmfs; mmf reform; money market fund reform,Macroprudential policy for non-banks,1,4,,True
+ev_ldi_2022,September 2022 LDI episode,event,fixed vocabulary (57),"The gilt market stress after the September 2022 fiscal event, amplified by leveraged LDI funds.",2022 gilt; autumn 2022; gilt market crisis; ldi crisis; ldi episode; mini-budget; september 2022; september 2022 ldi episode,,1,1,2022-09,True
+ev_brexit,Brexit,event,fixed vocabulary (57),"The UK's 2016 vote to leave the EU and subsequent exit, relevant to market structure and clearing.",brexit; eu referendum; referendum,,1,0,2016-06,True
+m_micro_data,Granular transaction data,method,fixed vocabulary (57),Analysis using trade- or position-level regulatory data.,emir data; granular data; granular transaction data; mifid ii data; regulatory data; trade repository data; transaction-level data,,1,0,,True
+m_model,Structural / agent-based modelling,method,fixed vocabulary (57),Theoretical or simulation models of behaviour.,agent-based model; dsge; simulation; structural / agent-based modelling; structural model; theoretical model,,1,0,,True
+ev_dash_for_cash,March 2020 dash for cash,event,fixed vocabulary (57),"The Covid-19 market stress in March 2020, when even government bond markets became dysfunctional.",covid shock; covid-19 market turmoil; dash for cash; march 2020; march 2020 dash for cash; march 2020 turmoil,,0,8,2020-03,True
+ev_archegos,Archegos default,event,fixed vocabulary (57),The 2021 collapse of a family office that caused large losses at prime brokers.,archegos; archegos default,,0,0,2021-03,True
+ev_bank_stress_2023,March 2023 banking stress,event,fixed vocabulary (57),Bank failures in the US and Switzerland in March 2023 and the resulting market stress.,credit suisse; march 2023; march 2023 banking stress; silicon valley bank; svb,,0,0,2023-03,True
+ev_aug_2024,August 2024 volatility spike,event,fixed vocabulary (57),"A short, sharp rise in market volatility in August 2024 linked to unwinding carry trades.",august 2024; august 2024 volatility spike; carry trade unwind; yen carry trade,,0,0,2024-08,True
+m_ml,Machine learning and text analysis,method,fixed vocabulary (57),Statistical learning and text-mining methods.,artificial intelligence; large language model; machine learning; machine learning and text analysis; natural language processing; text analysis,,0,0,,True
+m_econometrics,Empirical econometrics,method,fixed vocabulary (57),Statistical estimation of relationships in observed data.,difference-in-differences; empirical econometrics; event study; local projections; panel data; regression; var,,0,0,,True
+x_information_asymmetry,Information asymmetry,emergent,proposed by the model,,,,6,0,,True
+x_portfolio_rebalancing,Portfolio rebalancing,emergent,proposed by the model,,,,4,1,,True
+x_covered_interest_rate_parity,Covered interest rate parity,emergent,proposed by the model,,,,4,0,,True
+x_capital_regulation,Capital regulation,emergent,proposed by the model,,,,3,2,,True
+x_reaching_for_yield,Reaching for yield,emergent,proposed by the model,,,,3,4,,True
+x_informed_trading,Informed trading,emergent,proposed by the model,,,,3,0,,True
+x_global_shocks_us_euro_area_japan,"Global shocks (US, euro area, Japan)",emergent,proposed by the model,,,,2,7,,True
+x_refinancing_risk,Refinancing risk,emergent,proposed by the model,,,,2,1,,True
+x_risk_weighted_capital_requirements,Risk-weighted capital requirements,emergent,proposed by the model,,,,2,1,,True
+x_asset_allocation,Asset allocation,emergent,proposed by the model,,,,2,0,,True
+x_limit_order_book,Limit order book,emergent,proposed by the model,,,,2,0,,True
+x_adverse_selection_risk,Adverse selection risk,emergent,proposed by the model,,,,2,1,,True
+x_default_risk_and_risk_premium,Default risk and risk premium,emergent,proposed by the model,,,,2,1,,True
+x_otc_market_structure,OTC market structure,emergent,proposed by the model,,,,2,0,,True
+x_preferred_habitat_investors,Preferred habitat investors,emergent,proposed by the model,,,,2,3,,True
+x_market_segmentation,Market segmentation,emergent,proposed by the model,,,,2,0,,True
+x_search_frictions,Search frictions,emergent,proposed by the model,,,,2,1,,True
+x_market_structure_and_size,Market structure and size,emergent,proposed by the model,,,,2,1,,True
+x_auction_mechanism_design,Auction mechanism design,emergent,proposed by the model,,,,2,0,,True
+x_arbitrage,Arbitrage,emergent,proposed by the model,,,,2,0,,True
+x_yield_curve,Yield curve,emergent,proposed by the model,,,,2,0,,True
+x_balance_sheet_segmentation,Balance-sheet segmentation,emergent,proposed by the model,,,,2,2,,True
+x_duration_risk,Duration risk,emergent,proposed by the model,,,,2,0,,True
+x_preferred_habitat_demand,Preferred habitat demand,emergent,proposed by the model,,,,2,2,,True
+x_monetary_targeting,Monetary targeting,emergent,proposed by the model,,,,2,0,,True
+x_exchange_traded_funds,Exchange-traded funds,emergent,proposed by the model,,,,1,0,,True
+x_cyber_risk,Cyber risk,emergent,proposed by the model,,,,1,0,,False
+x_operational_risk,Operational risk,emergent,proposed by the model,,,,1,1,,True
+x_geopolitical_risk,Geopolitical risk,emergent,proposed by the model,,,,1,0,,False
+x_pandemic_risk,Pandemic risk,emergent,proposed by the model,,,,1,0,,False
+x_interest_rate_exposure,Interest rate exposure,emergent,proposed by the model,,,,1,1,,True
+x_quant_fund_crowding,Quant fund crowding,emergent,proposed by the model,,,,1,0,,False
+x_interest_rate_benchmarks,Interest rate benchmarks,emergent,proposed by the model,,,,1,0,,False
+x_global_value_chains,Global value chains,emergent,proposed by the model,,,,1,0,,False
+x_global_financial_conditions,Global financial conditions,emergent,proposed by the model,,,,1,1,,True
+x_resolution_authority_powers,Resolution authority powers,emergent,proposed by the model,,,,1,0,,False
+x_operational_resilience,Operational resilience,emergent,proposed by the model,,,,1,0,,False
+x_corridor_system,Corridor system,emergent,proposed by the model,,,,1,0,,False
+x_balance_sheet_dynamics,Balance sheet dynamics,emergent,proposed by the model,,,,1,0,,False
+x_value_at_risk_models,Value-at-Risk models,emergent,proposed by the model,,,,1,0,,True
+x_volatility_estimation,Volatility estimation,emergent,proposed by the model,,,,1,1,,False
+x_risk_factor_modelling,Risk factor modelling,emergent,proposed by the model,,,,1,0,,True
+x_closeout_procedures_and_default_management,Closeout procedures and default management,emergent,proposed by the model,,,,1,0,,False
+x_funding_constraints,Funding constraints,emergent,proposed by the model,,,,1,0,,False
+x_fair_value_accounting,Fair value accounting,emergent,proposed by the model,,,,1,0,,False
+x_historical_cost_accounting,Historical cost accounting,emergent,proposed by the model,,,,1,0,,False
+x_end_user_access_to_safe_assets,End-user access to safe assets,emergent,proposed by the model,,,,1,0,,False
+x_circuit_breakers,Circuit breakers,emergent,proposed by the model,,,,1,1,,False
+x_yield_spreads,Yield spreads,emergent,proposed by the model,,,,1,0,,False
+x_credit_risk,Credit risk,emergent,proposed by the model,,,,1,0,,False
+x_central_bank_asset_purchases,Central bank asset purchases,emergent,proposed by the model,,,,1,0,,False
+x_sponsor_covenant_risk,Sponsor covenant risk,emergent,proposed by the model,,,,1,0,,False
+x_equity_and_bond_holdings,Equity and bond holdings,emergent,proposed by the model,,,,1,0,,False
+x_financial_intermediation_costs,Financial intermediation costs,emergent,proposed by the model,,,,1,0,,False
+x_network_topology_and_centrality,Network topology and centrality,emergent,proposed by the model,,,,1,0,,False
+x_trading_networks,Trading networks,emergent,proposed by the model,,,,1,0,,False
+x_core_periphery_structure,Core-periphery structure,emergent,proposed by the model,,,,1,0,,False
+x_short_selling,Short selling,emergent,proposed by the model,,,,1,0,,False
+x_buy_in_process,Buy-in process,emergent,proposed by the model,,,,1,0,,False
+x_firm_balance_sheets_and_financial_constraints,Firm balance sheets and financial constraints,emergent,proposed by the model,,,,1,0,,False
+x_exchange_rate_pass_through,Exchange rate pass-through,emergent,proposed by the model,,,,1,0,,False
+x_order_splitting,Order splitting,emergent,proposed by the model,,,,1,0,,False
+x_inter_dealer_competition,Inter-dealer competition,emergent,proposed by the model,,,,1,0,,False
+x_price_discovery,Price discovery,emergent,proposed by the model,,,,1,0,,False
+x_interest_rate_forecasting,Interest rate forecasting,emergent,proposed by the model,,,,1,0,,False
+x_banks_internal_capital_allocation,Banks' internal capital allocation,emergent,proposed by the model,,,,1,0,,False
+x_duration_habitat,Duration habitat,emergent,proposed by the model,,,,1,0,,False
+x_over_the_counter_markets,Over-the-counter markets,emergent,proposed by the model,,,,1,0,,False
+x_intermediation,Intermediation,emergent,proposed by the model,,,,1,0,,False
+x_bond_supply,Bond supply,emergent,proposed by the model,,,,1,0,,False
+x_intermediation_frictions,Intermediation frictions,emergent,proposed by the model,,,,1,0,,False
+x_trading_delays,Trading delays,emergent,proposed by the model,,,,1,3,,True
+x_winner_s_curse,Winner's curse,emergent,proposed by the model,,,,1,0,,False
+x_trading_costs,Trading costs,emergent,proposed by the model,,,,1,4,,True
+x_macroeconomic_surprises,Macroeconomic surprises,emergent,proposed by the model,,,,1,2,,True
+x_ring_fencing,Ring-fencing,emergent,proposed by the model,,,,1,5,,False
+x_bank_counterparty_risk,Bank counterparty risk,emergent,proposed by the model,,,,1,2,,True
+x_bank_capital_and_liquidity_rules,Bank capital and liquidity rules,emergent,proposed by the model,,,,1,0,,False
+x_inflation_mispricing,Inflation mispricing,emergent,proposed by the model,,,,1,4,,False
+x_bank_net_interest_margins,Bank net interest margins,emergent,proposed by the model,,,,1,1,,False
+x_information_acquisition,Information acquisition,emergent,proposed by the model,,,,1,0,,False
+x_term_premia,Term premia,emergent,proposed by the model,,,,1,0,,False
+x_investor_positioning,Investor positioning,emergent,proposed by the model,,,,1,0,,False
+x_mifid_ii_reporting_framework,MiFID II reporting framework,emergent,proposed by the model,,,,1,0,,False
+x_slow_moving_capital,Slow-moving capital,emergent,proposed by the model,,,,1,0,,False
+x_investment_responses,Investment responses,emergent,proposed by the model,,,,1,0,,False
+x_portfolio_balance_effects,Portfolio balance effects,emergent,proposed by the model,,,,1,0,,False
+x_local_supply_channel,Local supply channel,emergent,proposed by the model,,,,1,0,,False
+x_government_debt_issuance,Government debt issuance,emergent,proposed by the model,,,,1,2,,False
+x_non_financial_corporations,Non-financial corporations,emergent,proposed by the model,,,,1,0,,False
+x_net_fx_derivatives_exposures,Net FX derivatives exposures,emergent,proposed by the model,,,,1,0,,False
+x_share_buybacks,Share buybacks,emergent,proposed by the model,,,,1,0,,False
+x_dealer_client_relationships,Dealer-client relationships,emergent,proposed by the model,,,,1,1,,False
+x_trading_relationships_and_persistence,Trading relationships and persistence,emergent,proposed by the model,,,,1,1,,False
+x_search_and_bargaining_frictions,Search and bargaining frictions,emergent,proposed by the model,,,,1,0,,False
+x_threshold_effects,Threshold effects,emergent,proposed by the model,,,,1,0,,False
+x_dollar_funding_costs_and_conditions,Dollar funding costs and conditions,emergent,proposed by the model,,,,1,0,,False
+x_overfunding,Overfunding,emergent,proposed by the model,,,,1,0,,False
+x_portfolio_balance_channel,Portfolio balance channel,emergent,proposed by the model,,,,1,0,,False
+x_herd_behaviour,Herd behaviour,emergent,proposed by the model,,,,1,1,,False
+x_order_anticipation,Order anticipation,emergent,proposed by the model,,,,1,0,,False
+x_benchmarking_and_relative_performance,Benchmarking and relative performance,emergent,proposed by the model,,,,1,1,,False
+x_bond_equity_correlation,Bond-equity correlation,emergent,proposed by the model,,,,1,3,,True
+x_inflation_expectations,Inflation expectations,emergent,proposed by the model,,,,1,1,,True
+x_capital_inflows,Capital inflows,emergent,proposed by the model,,,,1,2,,False
+x_debt_flows_and_loan_stability,Debt flows and loan stability,emergent,proposed by the model,,,,1,0,,False
+x_portfolio_investment_flows,Portfolio investment flows,emergent,proposed by the model,,,,1,0,,False
+x_global_volatility_and_risk_aversion,Global volatility and risk aversion,emergent,proposed by the model,,,,1,0,,False
+x_liability_driven_investing_behaviour,Liability-driven investing behaviour,emergent,proposed by the model,,,,1,0,,False
+x_deficit_volatility,Deficit volatility,emergent,proposed by the model,,,,1,0,,False
+x_service_provider_concentration,Service provider concentration,emergent,proposed by the model,,,,1,0,,False
+x_credit_rating_downgrade_risk,Credit rating downgrade risk,emergent,proposed by the model,,,,1,0,,False
+x_client_porting,Client porting,emergent,proposed by the model,,,,1,0,,False
+x_liquidity_spillovers,Liquidity spillovers,emergent,proposed by the model,,,,1,0,,False
+x_emerging_market_vulnerabilities,Emerging market vulnerabilities,emergent,proposed by the model,,,,1,0,,False
+x_order_flow_predictability,Order flow predictability,emergent,proposed by the model,,,,1,0,,False
+x_flash_crashes,Flash crashes,emergent,proposed by the model,,,,1,1,,False
+x_sovereign_bond_markets,Sovereign bond markets,emergent,proposed by the model,,,,1,0,,False
+x_settlement_system_and_failures,Settlement system and failures,emergent,proposed by the model,,,,1,1,,False
+x_business_cycle,Business cycle,emergent,proposed by the model,,,,1,0,,False
+x_portfolio_duration,Portfolio duration,emergent,proposed by the model,,,,1,0,,False
+x_welfare_maximisation,Welfare maximisation,emergent,proposed by the model,,,,1,0,,False
+x_commercial_real_estate,Commercial real estate,emergent,proposed by the model,,,,1,0,,False
+x_real_estate_investment_trusts,Real estate investment trusts,emergent,proposed by the model,,,,1,0,,False
+x_ai_driven_surveillance_and_optimisation,AI-driven surveillance and optimisation,emergent,proposed by the model,,,,1,0,,False
+x_quantitative_tightening_and_gilt_maturities,Quantitative tightening and gilt maturities,emergent,proposed by the model,,,,0,1,,False
+x_company_size,Company size,emergent,proposed by the model,,,,0,1,,False
+x_economic_disruption_from_covid_19,Economic disruption from Covid-19,emergent,proposed by the model,,,,0,1,,False
+x_corporate_cash_flow_deficit,Corporate cash-flow deficit,emergent,proposed by the model,,,,0,1,,False
+x_etf_price_data,ETF price data,emergent,proposed by the model,,,,0,1,,False
+x_political_and_economic_uncertainty,Political and economic uncertainty,emergent,proposed by the model,,,,0,3,,True
+x_higher_interest_rates,Higher interest rates,emergent,proposed by the model,,,,0,2,,True
+x_corporate_debt_servicing_costs,Corporate debt-servicing costs,emergent,proposed by the model,,,,0,1,,False
+x_debt_maturity_profile,Debt maturity profile,emergent,proposed by the model,,,,0,1,,False
+x_secularisation_of_loans,Secularisation of loans,emergent,proposed by the model,,,,0,1,,False
+x_regulatory_minimum_leverage_ratio,Regulatory minimum leverage ratio,emergent,proposed by the model,,,,0,1,,False
+x_capital_costs_associated_with_prudential_regulation,Capital costs associated with prudential regulation,emergent,proposed by the model,,,,0,1,,False
+x_market_volatility_and_stress,Market volatility and stress,emergent,proposed by the model,,,,0,2,,False
+x_portfolio_liquidation,Portfolio liquidation,emergent,proposed by the model,,,,0,0,,False
+x_hedging_strategy_design,hedging strategy design,emergent,proposed by the model,,,,0,1,,False
+x_funding_needs_and_transaction_costs,funding needs and transaction costs,emergent,proposed by the model,,,,0,1,,False
+x_transaction_costs,transaction costs,emergent,proposed by the model,,,,0,1,,False
+x_corporate_bond_purchases,Corporate bond purchases,emergent,proposed by the model,,,,0,3,,False
+x_dollar_basis,Dollar basis,emergent,proposed by the model,,,,0,2,,False
+x_trading_volume_in_fx_forwards,Trading volume in FX forwards,emergent,proposed by the model,,,,0,1,,False
+x_hedging_demand_for_dollars,Hedging demand for dollars,emergent,proposed by the model,,,,0,1,,False
+x_cross_currency_basis_swap_spread,Cross-currency basis swap spread,emergent,proposed by the model,,,,0,1,,False
+x_dealer_intermediation_costs,Dealer intermediation costs,emergent,proposed by the model,,,,0,1,,False
+x_hedge_fund_purchases,Hedge fund purchases,emergent,proposed by the model,,,,0,1,,False
+x_security_borrowing_costs_relative_to_fail_costs,Security borrowing costs relative to fail costs,emergent,proposed by the model,,,,0,1,,False
+x_low_interest_rates,Low interest rates,emergent,proposed by the model,,,,0,1,,False
+x_corporate_profitability_shock,Corporate profitability shock,emergent,proposed by the model,,,,0,1,,False
+x_excess_bond_premium,Excess bond premium,emergent,proposed by the model,,,,0,1,,False
+x_macroeconomic_output,Macroeconomic output,emergent,proposed by the model,,,,0,1,,False
+x_exchange_rate_depreciation,Exchange rate depreciation,emergent,proposed by the model,,,,0,1,,False
+x_bank_net_worth,Bank net worth,emergent,proposed by the model,,,,0,1,,False
+x_magnitude_of_private_information,Magnitude of private information,emergent,proposed by the model,,,,0,1,,False
+x_information_diffusion_speed,Information diffusion speed,emergent,proposed by the model,,,,0,1,,False
+x_rating_change_announcements,Rating change announcements,emergent,proposed by the model,,,,0,1,,False
+x_financial_stress_covid_19,Financial stress (Covid-19),emergent,proposed by the model,,,,0,1,,False
+x_investor_sophistication,Investor sophistication,emergent,proposed by the model,,,,0,1,,False
+x_business_unit_level_capital_allocation,Business-unit level capital allocation,emergent,proposed by the model,,,,0,1,,False
+x_investor_demand_for_gilts,Investor demand for gilts,emergent,proposed by the model,,,,0,1,,False
+x_endogenous_trader_responses_to_regulation,Endogenous trader responses to regulation,emergent,proposed by the model,,,,0,1,,False
+x_welfare_cost_of_regulation,Welfare cost of regulation,emergent,proposed by the model,,,,0,1,,False
+x_trading_platforms_reducing_search_costs,Trading platforms reducing search costs,emergent,proposed by the model,,,,0,1,,False
+x_aggregate_welfare,Aggregate welfare,emergent,proposed by the model,,,,0,1,,False
+x_trader_size,Trader size,emergent,proposed by the model,,,,0,4,,True
+x_size_penalty,Size penalty,emergent,proposed by the model,,,,0,8,,True
+x_client_sophistication,Client sophistication,emergent,proposed by the model,,,,0,1,,False
+x_bank_resolution,Bank resolution,emergent,proposed by the model,,,,0,0,,False
+x_bank_repo_borrowing_costs_during_stress,Bank repo borrowing costs during stress,emergent,proposed by the model,,,,0,1,,False
+x_non_ring_fenced_subsidiary_risk_appetite,Non-ring-fenced subsidiary risk appetite,emergent,proposed by the model,,,,0,1,,False
+x_wholesale_funding_and_deposits,Wholesale funding and deposits,emergent,proposed by the model,,,,0,1,,False
+x_funding_frictions,Funding frictions,emergent,proposed by the model,,,,0,0,,False
+x_information_cost_decline,Information cost decline,emergent,proposed by the model,,,,0,1,,False
+x_information_depreciation_rate,Information depreciation rate,emergent,proposed by the model,,,,0,1,,False
+x_real_term_premia_response_to_monetary_policy,Real term premia response to monetary policy,emergent,proposed by the model,,,,0,1,,False
+x_mini_budget_fiscal_shock,Mini-budget fiscal shock,emergent,proposed by the model,,,,0,2,,True
+x_coordination_frictions_in_pooled_ldis,Coordination frictions in pooled LDIs,emergent,proposed by the model,,,,0,1,,False
+x_strategic_delay_by_arbitrageurs,Strategic delay by arbitrageurs,emergent,proposed by the model,,,,0,1,,False
+x_duration_risk_and_local_supply_channel_strength,Duration risk and local supply channel strength,emergent,proposed by the model,,,,0,1,,False
+x_momentum_based_fx_investment_strategies,Momentum-based FX investment strategies,emergent,proposed by the model,,,,0,2,,True
+x_macroeconomic_news_based_fx_trading_strategies,Macroeconomic news-based FX trading strategies,emergent,proposed by the model,,,,0,1,,False
+x_recent_dealer_relationship,Recent dealer relationship,emergent,proposed by the model,,,,0,1,,False
+x_probability_of_trading_with_dealer,Probability of trading with dealer,emergent,proposed by the model,,,,0,2,,False
+x_fixed_costs_of_relationship_creation,Fixed costs of relationship creation,emergent,proposed by the model,,,,0,1,,False
+x_regulatory_reforms,Regulatory reforms,emergent,proposed by the model,,,,0,1,,False
+x_risk_mispricing_from_search_for_yield,Risk mispricing from search for yield,emergent,proposed by the model,,,,0,1,,False
+x_myopia_and_heuristics,Myopia and heuristics,emergent,proposed by the model,,,,0,1,,False
+x_credit_rating,Credit rating,emergent,proposed by the model,,,,0,1,,False
+x_shock_to_expected_loss_rate,Shock to expected loss rate,emergent,proposed by the model,,,,0,1,,False
+x_redemption_speed,Redemption speed,emergent,proposed by the model,,,,0,1,,False
+x_peer_comparison_monitoring_practices,Peer comparison monitoring practices,emergent,proposed by the model,,,,0,1,,False
+x_inflation_risks,Inflation risks,emergent,proposed by the model,,,,0,1,,False
+x_supply_shocks,Supply shocks,emergent,proposed by the model,,,,0,1,,False
+x_credible_inflation_targeting,Credible inflation targeting,emergent,proposed by the model,,,,0,1,,False
+x_foreign_currency_denomination,Foreign currency denomination,emergent,proposed by the model,,,,0,2,,False
+x_longevity_risk,Longevity risk,emergent,proposed by the model,,,,0,0,,False
+x_news_reading_algorithms,News-reading algorithms,emergent,proposed by the model,,,,0,1,,False
+x_capital_requirement_reduction,Capital requirement reduction,emergent,proposed by the model,,,,0,1,,False
+x_model_risk_and_tail_losses,Model risk and tail losses,emergent,proposed by the model,,,,0,1,,False
+x_macroeconomic_news_announcements,Macroeconomic news announcements,emergent,proposed by the model,,,,0,1,,False
+x_electronic_and_automated_trading_growth,Electronic and automated trading growth,emergent,proposed by the model,,,,0,1,,False
+x_uncertainty_about_virus_spreading,Uncertainty about virus spreading,emergent,proposed by the model,,,,0,1,,False
+x_lower_trading_volume,Lower trading volume,emergent,proposed by the model,,,,0,1,,False
+x_settlement_failure_rates,Settlement failure rates,emergent,proposed by the model,,,,0,1,,False
+x_output,Output,emergent,proposed by the model,,,,0,1,,False
+x_investment,Investment,emergent,proposed by the model,,,,0,1,,False
+x_deterioration_in_economic_outlook,Deterioration in economic outlook,emergent,proposed by the model,,,,0,1,,False
+x_lack_of_climate_disclosure_and_policy,Lack of climate disclosure and policy,emergent,proposed by the model,,,,0,1,,False
+x_fundamental_inflation_shocks,Fundamental inflation shocks,emergent,proposed by the model,,,,0,1,,False
+x_fiscal_expansion_announcement,Fiscal expansion announcement,emergent,proposed by the model,,,,0,1,,False
+x_pooled_ldi_structure_requiring_coordination_among_multiple_p,Pooled LDI structure requiring coordination among multiple pensions,emergent,proposed by the model,,,,0,1,,False
+x_data_release_timing_outside_market_hours,Data release timing outside market hours,emergent,proposed by the model,,,,0,1,,False
+x_investor_confidence,Investor confidence,emergent,proposed by the model,,,,0,1,,False
+x_digital_investment_platforms_and_educational_material,Digital investment platforms and educational material,emergent,proposed by the model,,,,0,1,,False
+x_capital_gains_tax_exemption_on_gilts,Capital gains tax exemption on gilts,emergent,proposed by the model,,,,0,1,,False
+x_regulatory_fragmentation_and_opacity,Regulatory fragmentation and opacity,emergent,proposed by the model,,,,0,1,,False
