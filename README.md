@@ -7,7 +7,8 @@ No API keys, no network calls, and no full publication text (each row links to t
 |---|---|
 | `exports/BoE_MBF_KG.xlsx` | The whole graph as an Excel workbook. Start with the README sheet. Works offline on any PC with Excel. |
 | `exports/csv/*.csv` | The same tables as CSV files (UTF-8, open directly in Excel). |
-| `streamlit_app.py` | Interactive explorer: grade evidence, audit foresight, trace scenarios, briefing packs, gaps. |
+| `streamlit_app.py` | Interactive explorer: causal map, grade evidence, audit foresight, trace scenarios, briefing packs, gaps. |
+| `assets/vis-network.min.js` | Network-drawing library (vis-network 9.1.9, Apache-2.0/MIT), bundled so the causal map works offline. |
 | `kg.sqlite` | The slim database the app reads (1.8 MB). |
 | `build_demo_data.py` | Rebuilds everything above from the full knowledge-graph project (not included here). |
 

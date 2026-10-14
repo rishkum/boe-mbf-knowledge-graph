@@ -4,6 +4,7 @@ Self-contained: reads kg.sqlite next to this file (built by build_demo_data.py).
 Run locally:  streamlit run demo/streamlit_app.py
 """
 import io
+import json
 import sqlite3
 import zipfile
 from collections import defaultdict
@@ -14,6 +15,7 @@ import altair as alt
 import networkx as nx
 import pandas as pd
 import streamlit as st
+import streamlit.components.v1 as components
 
 HERE = Path(__file__).resolve().parent
 DB = HERE / "kg.sqlite"
@@ -130,6 +132,90 @@ def metrics_row(d):
         col.metric(k, v)
 
 
+# ====================================================================== graph views
+FACET_COLOUR = {"sector": "#2a78d6", "market": "#eb6834", "vulnerability": "#1baf7a", "phenomenon": "#eda100",
+                "policy": "#e87ba4", "event": "#008300", "method": "#e34948", "emergent": "#6b5fc7"}
+UP, DOWN, MIXED = "#d03b3b", "#2a78d6", "#a8a69e"
+VIS_JS = HERE / "assets" / "vis-network.min.js"  # bundled so the map works offline
+NODE_PUBS = MAIN.groupby("concept_id").doc_id.nunique()
+
+
+@st.cache_data
+def link_table():
+    """Every causal link between concepts: publications, claims and how many say increases / decreases."""
+    df = CLAIMS[(CLAIMS.driver != CLAIMS.outcome) & CLAIMS.driver.isin(SHOWN) & CLAIMS.outcome.isin(SHOWN)]
+    g = df.groupby(["driver", "outcome"])
+    return pd.DataFrame({"publications": g.doc_id.nunique(), "claims": g.size(),
+                         "increases": g.direction.apply(lambda s: int((s == "increases").sum())),
+                         "decreases": g.direction.apply(lambda s: int((s == "decreases").sum()))}).reset_index()
+
+
+def direction_colour(up, down):
+    if up + down == 0:
+        return MIXED
+    share = up / (up + down)
+    return UP if share >= 0.75 else DOWN if share <= 0.25 else MIXED
+
+
+def network(links, focus=None, height=560):
+    """Interactive concept network (vis-network): drag, zoom, hover for details."""
+    ids = sorted(set(links.driver) | set(links.outcome))
+    nodes = [{"id": c, "label": name(c), "value": int(NODE_PUBS.get(c, 0)) + 1,
+              "title": f"{name(c)}\n{FACET[c]} · {NODE_PUBS.get(c, 0)} publications",
+              "color": {"background": FACET_COLOUR.get(FACET[c], GREY), "border": "#222" if c == focus else "#fff"},
+              "borderWidth": 3 if c == focus else 1} for c in ids]
+    edges = [{"from": r.driver, "to": r.outcome, "value": int(r.publications),
+              "title": f"{name(r.driver)} → {name(r.outcome)}\n{r.publications} publications, {r.claims} claims"
+                       f"\n{r.increases} say increases, {r.decreases} say decreases",
+              "color": {"color": direction_colour(r.increases, r.decreases), "opacity": 0.8}}
+             for r in links.itertuples()]
+    data = json.dumps({"nodes": nodes, "edges": edges}).replace("</", "<\\/")
+    components.html(f"""
+<div id="net" style="height:{height}px;border:1px solid #e6e4dd;border-radius:8px;background:#fff"></div>
+<script>{VIS_JS.read_text()}</script>
+<script>
+const data = {data};
+for (const x of [...data.nodes, ...data.edges]) {{
+  const el = document.createElement("div");
+  el.style.cssText = "white-space:pre-line;font:13px sans-serif;padding:4px";
+  el.textContent = x.title; x.title = el;
+}}
+const net = new vis.Network(document.getElementById("net"), data, {{
+  nodes: {{shape: "dot", scaling: {{min: 8, max: 34, label: {{enabled: true, min: 12, max: 18}}}},
+          font: {{face: "sans-serif", color: "#222", strokeWidth: 3, strokeColor: "#fff"}}}},
+  edges: {{arrows: {{to: {{scaleFactor: 0.55}}}}, scaling: {{min: 1, max: 8}}, smooth: {{type: "continuous"}}}},
+  physics: {{solver: "forceAtlas2Based", forceAtlas2Based: {{gravitationalConstant: -70, springLength: 130}},
+            stabilization: {{iterations: 300}}}},
+  interaction: {{hover: true, tooltipDelay: 80, zoomView: false, navigationButtons: true, keyboard: false}}
+}});
+net.once("stabilizationIterationsDone", () => net.fit({{animation: false}}));
+</script>""", height=height + 12)
+
+
+def legend():
+    dots = "".join(f'<span style="margin-right:14px;white-space:nowrap"><span style="display:inline-block;width:10px;'
+                   f'height:10px;border-radius:50%;background:{c};margin-right:5px"></span>{f}</span>'
+                   for f, c in FACET_COLOUR.items() if f not in ("event", "method"))
+    lines = "".join(f'<span style="margin-right:14px;white-space:nowrap"><span style="display:inline-block;width:18px;'
+                    f'height:3px;background:{c};vertical-align:middle;margin-right:5px"></span>{t}</span>'
+                    for t, c in (("mostly increases", UP), ("mostly decreases", DOWN), ("mixed", MIXED)))
+    st.html(f'<div style="font-size:13px;color:#52514e;line-height:1.9">{dots}<br>{lines} · dot size = publications'
+            f' · arrow width = publications making the claim</div>')
+
+
+def neighbourhood(links, focus, depth):
+    keep, frontier = {focus}, {focus}
+    for _ in range(depth):
+        nb = links[links.driver.isin(frontier) | links.outcome.isin(frontier)]
+        new = set(nb.driver) | set(nb.outcome)
+        frontier, keep = new - keep, keep | new
+    return links[links.driver.isin(keep) & links.outcome.isin(keep)]
+
+
+def dot_label(text):
+    return text.replace('"', "'")
+
+
 # ====================================================================== pages
 def overview():
     st.title("What Bank of England research says about market-based finance")
@@ -180,6 +266,76 @@ def overview():
             "out their authors' views, not those of the Bank's policy committees.")
 
 
+def causal_map():
+    st.title("Causal map")
+    st.caption("Concepts (dots) joined by the causal claims Bank publications make about them (arrows). "
+               "Drag to rearrange, use the + and − buttons to zoom, hover for details.")
+    links = link_table()
+    ids = sorted(SHOWN, key=lambda c: name(c).lower())
+    c1, c2, c3 = st.columns([3, 1, 1])
+    with c1:
+        focus = st.selectbox("Centre on a concept", [None] + ids, index=ids.index("fire_sales") + 1,
+                             format_func=lambda c: "Whole graph" if c is None else f"{name(c)}  ·  {FACET[c]}")
+    with c2:
+        depth = st.radio("Steps out", [1, 2], horizontal=True, disabled=focus is None)
+    with c3:
+        min_pubs = st.number_input("Min publications per link", 1, 10, 2 if focus else 4)
+    types = ["sector", "market", "vulnerability", "phenomenon", "policy", "emergent"]
+    kinds = st.pills("Show concept types", types, default=types,
+                     selection_mode="multi", format_func=lambda f: "proposed by model" if f == "emergent" else f)
+    links = links[(links.publications >= min_pubs) & links.driver.map(FACET).isin(kinds)
+                  & links.outcome.map(FACET).isin(kinds)]
+    if focus:
+        links = neighbourhood(links, focus, depth)
+    links = links.nlargest(120, "publications")
+    if links.empty:
+        st.info("No links at this threshold. Lower the minimum publications or add concept types.")
+        return
+    metrics_row({"Concepts shown": len(set(links.driver) | set(links.outcome)), "Links shown": len(links),
+                 "Claims behind them": int(links.claims.sum())})
+    network(links, focus)
+    legend()
+    table = links.assign(link=links.driver.map(name) + " → " + links.outcome.map(name)) \
+        .sort_values("publications", ascending=False)
+    st.markdown("**Look at the evidence behind a link**")
+    pick = st.selectbox("Link", table.index, format_func=lambda i: f"{table.link[i]}  ({table.publications[i]} "
+                        f"publications)", label_visibility="collapsed")
+    claims_table(link_claims(table.driver[pick], table.outcome[pick], narrower=False))
+
+
+def spiral_dot(selected=None):
+    """The collateral and leverage spiral from the insights note, with live publication counts."""
+    lines = ['digraph { rankdir=LR; bgcolor="transparent"; nodesep=0.35; ranksep=0.5;',
+             'node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#c9c7bf", '
+             'fillcolor="#f4f3ef"]; edge [fontname="Helvetica", fontsize=10, color="#9a988f"];']
+    for c in {x for p in PRESETS for x in p[1:3]}:
+        lines.append(f'"{c}" [label="{dot_label(name(c))}", fillcolor="{FACET_COLOUR.get(FACET[c], GREY)}22"];')
+    for p in PRESETS:
+        n = link_claims(p[1], p[2], p[3]).doc_id.nunique()
+        on = selected is not None and p[0] == selected[0]
+        style = f'color="{BLUE}", fontcolor="{BLUE}", penwidth=3' if on else f"penwidth={1 + n / 8:.1f}"
+        dash = ', style="dashed"' if p[3] == "decreases" else ""
+        lines.append(f'"{p[1]}" -> "{p[2]}" [label="{n}", {style}{dash}];')
+    return "\n".join(lines + ["}"])
+
+
+def chains_dot(found, g, s, t):
+    edges = {}
+    for _, p in found:
+        for u, v in zip(p, p[1:]):
+            edges[(u, v)] = len(g[u][v]["docs"])
+    ends = family(s) | family(t)
+    lines = ['digraph { rankdir=LR; bgcolor="transparent"; nodesep=0.3;',
+             'node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#c9c7bf"];',
+             'edge [fontname="Helvetica", fontsize=10, color="#7d7b75"];']
+    for c in {x for e in edges for x in e}:
+        bold = ', penwidth=2, color="#222"' if c in ends else ""
+        lines.append(f'"{c}" [label="{dot_label(name(c))}", fillcolor="{FACET_COLOUR.get(FACET[c], GREY)}22"{bold}];')
+    for (u, v), n in edges.items():
+        lines.append(f'"{u}" -> "{v}" [label="{n}", penwidth={1 + min(n, 8) * 0.5:.1f}];')
+    return "\n".join(lines + ["}"])
+
+
 def evidence():
     st.title("Grade the evidence for a causal link")
     st.caption("How many publications support a link, over what period, how it was measured and how firmly "
@@ -187,6 +343,9 @@ def evidence():
     labels = ["Custom link"] + [p[0] for p in PRESETS]
     choice = st.selectbox("Start from a link in the spiral, or build your own", labels, index=2)
     preset = next((p for p in PRESETS if p[0] == choice), None)
+    with st.expander("Where this link sits in the spiral", expanded=True):
+        st.graphviz_chart(spiral_dot(preset), width="stretch")
+        st.caption("Numbers are publications making each claim. The selected link is highlighted.")
     c1, c2, c3 = st.columns([2, 2, 1])
     with c1:
         drv = concept_picker("Driver", preset[1] if preset else "leverage", key=f"drv{choice}")
@@ -313,6 +472,9 @@ def scenario():
         st.info("No chain of claims links these concepts. Try more steps or broader concepts.")
         return
     st.markdown(f"**{len(found)} chains found**, strongest first (a chain is only as strong as its weakest step).")
+    st.graphviz_chart(chains_dot(found[:6], g, s, t), width="stretch")
+    st.caption("The six strongest chains. Numbers on arrows are publications supporting each step; "
+               "thicker arrows have more support.")
     for weakest, p in found[:10]:
         with st.expander(f"{' → '.join(name(c) for c in p)}   ·   weakest step: {weakest} publication"
                          f"{'s' if weakest > 1 else ''}", expanded=False):
@@ -355,6 +517,11 @@ def briefing():
         return
     st.caption("By series: " + ", ".join(f"{v} {k}" for k, v in pubs.series.value_counts().items()))
 
+    st.markdown("#### Concept map")
+    near = neighbourhood(link_table(), cid, 1).nlargest(40, "publications")
+    if len(near):
+        network(near, focus=cid, height=430)
+        legend()
     st.markdown("#### What the research claims")
     links = cl.assign(link=cl.driver.map(name) + " → " + cl.outcome.map(name)).groupby("link").agg(
         publications=("doc_id", "nunique"), claims=("claim_id", "size"),
@@ -563,6 +730,7 @@ def downloads():
 
 pages = [
     st.Page(overview, title="Overview", icon=":material/home:", default=True),
+    st.Page(causal_map, title="Causal map", icon=":material/hub:", url_path="map"),
     st.Page(evidence, title="Grade the evidence", icon=":material/fact_check:", url_path="evidence"),
     st.Page(foresight, title="Audit foresight", icon=":material/history:", url_path="foresight"),
     st.Page(scenario, title="Trace a scenario", icon=":material/route:", url_path="scenario"),
