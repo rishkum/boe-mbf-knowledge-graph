@@ -5,6 +5,7 @@ No API keys, no network calls, and no full publication text (each row links to t
 
 | File | What it is |
 |---|---|
+| `report/BoE_MBF_research_insights.docx` | The write-up: worked examples of what the knowledge graph can do for a central bank economist. |
 | `exports/BoE_MBF_KG.xlsx` | The whole graph as an Excel workbook. Start with the README sheet. Works offline on any PC with Excel. |
 | `exports/csv/*.csv` | The same tables as CSV files (UTF-8, open directly in Excel). |
 | `streamlit_app.py` | Interactive explorer: causal map, grade evidence, audit foresight, trace scenarios, briefing packs, gaps. |
